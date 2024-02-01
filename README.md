@@ -1,3 +1,3 @@
 # trawlrepo
-test repo for trawl models
-test change from local
+repo for version control / back-up of R scripts
+
