@@ -75,3 +75,10 @@ Annual.Sum <- tSum %>%
   group_by(NAME, YEAR) %>% 
   summarise(total.weight.g = sum(as.numeric(TOT.WEIGHT), na.rm = TRUE),
             total.catch.n = sum(as.numeric(TOT.NUM), na.rm = FALSE))
+
+# subset a couple of years
+Annual.Sum08 <- subset(Annual.Sum, YEAR == 2008)
+
+Annual.Sum <- Annual.Sum %>%
+  group_by(YEAR) %>%
+  arrange(NAME, .by_group = TRUE)
