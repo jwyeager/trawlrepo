@@ -126,6 +126,7 @@ Annual.Sum20 <- subset(Annual.Sum, YEAR == 2020)
 Annual.Sum21 <- subset(Annual.Sum, YEAR == 2021)
 Annual.Sum22 <- subset(Annual.Sum, YEAR == 2022)
 
+sound.area.km2 <- 2128.87
 
 #################################
 ##      Water quality data
