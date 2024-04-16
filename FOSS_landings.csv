@@ -1,0 +1,644 @@
+Year,NMFS Name,Pounds,Metric Tons,Dollars,Confidentiality,Collection,Scientific Name,Tsn
+2010,"AMBERJACK, GREATER",,,,Confidential,Commercial,Seriola dumerili,168689
+2010,"BARRACUDAS, SPHYRAENIDAE (FAMILY) **",,,,Confidential,Commercial,Sphyraenidae,170424
+2010,BLUEFISH,,,,Confidential,Commercial,Pomatomus saltatrix,168559
+2010,"CATFISHES, FORKTAIL **",,,,Confidential,Commercial,Ictalurus,163996
+2010,"CATFISHES, SEA **",,,,Confidential,Commercial,Ariidae,164157
+2010,"CRAB, BLUE","367,189",167,"371,045",Public,Commercial,Callinectes sapidus,98696
+2010,"CROAKER, ATLANTIC",,,,Confidential,Commercial,Micropogonias undulatus,169283
+2010,DOLPHINFISH,,,,Confidential,Commercial,Coryphaena hippurus,168791
+2010,"DRUM, BLACK","11,442",5,"4,151",Public,Commercial,Pogonias cromis,169288
+2010,"DRUM, RED","36,444",17,"64,619",Public,Commercial,Sciaenops ocellatus,169290
+2010,FLATFISHES **,"27,565",13,"64,101",Public,Commercial,Pleuronectiformes,172702
+2010,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2010,"GROUPERS, SERRANIDAE (FAMILY) **",,,,Confidential,Commercial,Serranidae,167674
+2010,HARVESTFISHES **,,,,Confidential,Commercial,Peprilus,172564
+2010,"JACK, CREVALLE",,,,Confidential,Commercial,Caranx hippos,168609
+2010,KINGFISHES **,"2,895",1,"2,907",Public,Commercial,Menticirrhus,169273
+2010,LADYFISH,,,,Confidential,Commercial,Elops saurus,161111
+2010,"MACKEREL, KING",,,,Confidential,Commercial,Scomberomorus cavalla,172435
+2010,"MACKEREL, SPANISH",,,,Confidential,Commercial,Scomberomorus maculatus,172436
+2010,MENHADENS **,"104,729,230","47,505","8,378,339",Public,Commercial,Brevoortia ,161731
+2010,"MULLET, STRIPED","58,796",27,"30,552",Public,Commercial,Mugil cephalus,170335
+2010,"OYSTER, EASTERN","1,452,712",659,"4,267,658",Public,Commercial,Crassostrea virginica,79872
+2010,"POMPANO, FLORIDA",,,,Confidential,Commercial,Trachinotus carolinus,168708
+2010,"RUNNER, BLUE",,,,Confidential,Commercial,Caranx crysos,168612
+2010,SCADS **,,,,Confidential,Commercial,Decapterus ,168723
+2010,SCAMP,,,,Confidential,Commercial,Mycteroperca phenax,167763
+2010,"SEATROUT, SAND","8,042",4,"5,225",Public,Commercial,Cynoscion arenarius,169243
+2010,"SEATROUT, SPOTTED","41,534",19,"96,044",Public,Commercial,Cynoscion nebulosus,169239
+2010,"SHARK, DOGFISH, SMOOTH",,,,Confidential,Commercial,Mustelus canis,160230
+2010,SHEEPSHEAD,"24,852",11,"14,665",Public,Commercial,Archosargus probatocephalus,169189
+2010,"SHRIMP, BROWN","1,602,473",727,"2,775,236",Public,Commercial,Penaeus aztecus,95605
+2010,"SHRIMP, NORTHERN WHITE","2,545,338","1,155","5,536,859",Public,Commercial,Penaeus setiferus,95610
+2010,"SNAPPER, GRAY",371,0,661,Public,Commercial,Lutjanus griseus,168848
+2010,"SNAPPER, LANE",,,,Confidential,Commercial,Lutjanus synagris,168860
+2010,"SNAPPER, RED",,,,Confidential,Commercial,Lutjanus campechanus,168853
+2010,"SNAPPER, VERMILION",,,,Confidential,Commercial,Rhomboplites aurorubens,168909
+2010,SPADEFISH,,,,Confidential,Commercial,Ephippidae ,553178
+2010,SPOT,,,,Confidential,Commercial,Leiostomus xanthurus,169267
+2010,"SQUIDS, LOLIGINIDAE **",,,,Confidential,Commercial,Loliginidae,82369
+2010,"TRIGGERFISH, GRAY",,,,Confidential,Commercial,Balistes capriscus,173138
+2010,TRIPLETAIL,,,,Confidential,Commercial,Lobotes surinamensis,169007
+2010,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2010,"VERTEBRATES, JAWED",,,,Confidential,Commercial,Gnathostomata ,914179
+2010,WENCHMAN,,,,Confidential,Commercial,Pristipomoides aquilonaris,168913
+2011,"AMBERJACK, GREATER",,,,Confidential,Commercial,Seriola dumerili,168689
+2011,"BARRACUDAS, SPHYRAENIDAE (FAMILY) **",,,,Confidential,Commercial,Sphyraenidae,170424
+2011,BLUEFISH,,,,Confidential,Commercial,Pomatomus saltatrix,168559
+2011,"CATFISHES, SEA **",,,,Confidential,Commercial,Ariidae,164157
+2011,"CRAB, BLUE","370,195",168,"320,735",Public,Commercial,Callinectes sapidus,98696
+2011,"CROAKER, ATLANTIC",,,,Confidential,Commercial,Micropogonias undulatus,169283
+2011,DOLPHINFISH,,,,Confidential,Commercial,Coryphaena hippurus,168791
+2011,"DRUM, BLACK","9,440",4,"2,954",Public,Commercial,Pogonias cromis,169288
+2011,"DRUM, RED","28,359",13,"57,893",Public,Commercial,Sciaenops ocellatus,169290
+2011,FLATFISHES **,"55,201",25,"118,103",Public,Commercial,Pleuronectiformes,172702
+2011,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2011,"GROUPER, WARSAW",,,,Confidential,Commercial,Epinephelus nigritus,167704
+2011,"GRUNTS, HAEMULIDAE (FAMILY) **",,,,Confidential,Commercial,Haemulidae,169055
+2011,HARVESTFISHES **,,,,Confidential,Commercial,Peprilus,172564
+2011,HERRINGS **,,,,Confidential,Commercial,Clupeidae,161700
+2011,"JACK, CREVALLE",,,,Confidential,Commercial,Caranx hippos,168609
+2011,KINGFISHES **,626,0,599,Public,Commercial,Menticirrhus,169273
+2011,LADYFISH,,,,Confidential,Commercial,Elops saurus,161111
+2011,LOOKDOWN,,,,Confidential,Commercial,Selene vomer,168680
+2011,"MACKEREL, KING",,,,Confidential,Commercial,Scomberomorus cavalla,172435
+2011,"MACKEREL, SPANISH",,,,Confidential,Commercial,Scomberomorus maculatus,172436
+2011,MENHADENS **,"266,756,366","121,000","9,870,788",Public,Commercial,Brevoortia ,161731
+2011,"MULLET, STRIPED","92,639",42,"56,448",Public,Commercial,Mugil cephalus,170335
+2011,"OYSTER, EASTERN","247,384",112,"927,690",Public,Commercial,Crassostrea virginica,79872
+2011,PINFISH,,,,Confidential,Commercial,Lagodon rhomboides,169187
+2011,"POMPANO, FLORIDA",,,,Confidential,Commercial,Trachinotus carolinus,168708
+2011,"PORGY, WHITEBONE",,,,Confidential,Commercial,Calamus leucosteus,169200
+2011,"RUNNER, BLUE",,,,Confidential,Commercial,Caranx crysos,168612
+2011,"RUNNER, RAINBOW",,,,Confidential,Commercial,Elagatis bipinnulata,168738
+2011,SCADS **,,,,Confidential,Commercial,Decapterus ,168723
+2011,SCAMP,,,,Confidential,Commercial,Mycteroperca phenax,167763
+2011,"SEATROUT, SAND","4,544",2,"2,776",Public,Commercial,Cynoscion arenarius,169243
+2011,"SEATROUT, SPOTTED","38,675",18,"98,680",Public,Commercial,Cynoscion nebulosus,169239
+2011,"SHAD, THREADFIN",,,,Confidential,Commercial,Dorosoma petenense,161738
+2011,SHEEPSHEAD,"21,497",10,"13,041",Public,Commercial,Archosargus probatocephalus,169189
+2011,"SHRIMP, BROWN","7,017,605","3,183","9,804,205",Public,Commercial,Penaeus aztecus,95605
+2011,"SHRIMP, NORTHERN PINK",,,,Confidential,Commercial,Penaeus duorarum,95608
+2011,"SHRIMP, NORTHERN WHITE","3,027,277","1,373","8,710,619",Public,Commercial,Penaeus setiferus,95610
+2011,"SNAPPER, GRAY","2,228",1,"4,759",Public,Commercial,Lutjanus griseus,168848
+2011,"SNAPPER, LANE",,,,Confidential,Commercial,Lutjanus synagris,168860
+2011,"SNAPPER, RED","85,747",39,"167,637",Public,Commercial,Lutjanus campechanus,168853
+2011,"SNAPPER, VERMILION",,,,Confidential,Commercial,Rhomboplites aurorubens,168909
+2011,"SNAPPER, YELLOWTAIL",,,,Confidential,Commercial,Ocyurus chrysurus,168907
+2011,SPADEFISH,,,,Confidential,Commercial,Ephippidae ,553178
+2011,SPOT,,,,Confidential,Commercial,Leiostomus xanthurus,169267
+2011,"SQUIDS, LOLIGINIDAE **",,,,Confidential,Commercial,Loliginidae,82369
+2011,"TRIGGERFISH, GRAY",,,,Confidential,Commercial,Balistes capriscus,173138
+2011,TRIPLETAIL,195,0,323,Public,Commercial,Lobotes surinamensis,169007
+2011,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2011,"VERTEBRATES, JAWED","11,322",5,"5,577",Public,Commercial,Gnathostomata ,914179
+2011,WAHOO,,,,Confidential,Commercial,Acanthocybium solandri,172451
+2011,WENCHMAN,,,,Confidential,Commercial,Pristipomoides aquilonaris,168913
+2012,"AMBERJACK, GREATER",,,,Confidential,Commercial,Seriola dumerili,168689
+2012,"BARRACUDAS, SPHYRAENIDAE (FAMILY) **",,,,Confidential,Commercial,Sphyraenidae,170424
+2012,BLUEFISH,,,,Confidential,Commercial,Pomatomus saltatrix,168559
+2012,"CATFISHES, SEA **","2,348",1,819,Public,Commercial,Ariidae,164157
+2012,"CRAB, BLUE","782,114",355,"723,685",Public,Commercial,Callinectes sapidus,98696
+2012,"CRAB, FLORIDA STONE",,,,Confidential,Commercial,Menippe mercenaria,98811
+2012,"CROAKER, ATLANTIC",320,0,165,Public,Commercial,Micropogonias undulatus,169283
+2012,DOLPHINFISH,,,,Confidential,Commercial,Coryphaena hippurus,168791
+2012,"DRUM, BLACK","7,065",3,"3,497",Public,Commercial,Pogonias cromis,169288
+2012,"DRUM, RED","34,797",16,"69,279",Public,Commercial,Sciaenops ocellatus,169290
+2012,DRUMS **,,,,Confidential,Commercial,Sciaenidae,169237
+2012,FLATFISHES **,"43,156",20,"100,768",Public,Commercial,Pleuronectiformes,172702
+2012,"FLOUNDER, FOURSPOT",,,,Confidential,Commercial,Paralichthys oblongus,172739
+2012,GARFISHES **,,,,Confidential,Commercial,Lepisosteidae,161092
+2012,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2012,"GROUPER, RED",,,,Confidential,Commercial,Epinephelus morio,167702
+2012,"GROUPER, WARSAW",,,,Confidential,Commercial,Epinephelus nigritus,167704
+2012,HARVESTFISHES **,,,,Confidential,Commercial,Peprilus,172564
+2012,"JACK, ALMACO",,,,Confidential,Commercial,Seriola rivoliana,168691
+2012,"JACK, CREVALLE",,,,Confidential,Commercial,Caranx hippos,168609
+2012,KINGFISHES **,"1,754",1,"1,795",Public,Commercial,Menticirrhus,169273
+2012,LADYFISH,,,,Confidential,Commercial,Elops saurus,161111
+2012,LOOKDOWN,,,,Confidential,Commercial,Selene vomer,168680
+2012,"MACKEREL, KING",,,,Confidential,Commercial,Scomberomorus cavalla,172435
+2012,"MACKEREL, SPANISH",868,0,729,Public,Commercial,Scomberomorus maculatus,172436
+2012,MENHADENS **,"248,845,737","112,876","22,394,134",Public,Commercial,Brevoortia ,161731
+2012,"MULLET, STRIPED","98,686",45,"62,938",Public,Commercial,Mugil cephalus,170335
+2012,"OYSTER, EASTERN","425,496",193,"1,595,610",Public,Commercial,Crassostrea virginica,79872
+2012,"PERCH, SAND",,,,Confidential,Commercial,Diplectrum formosum,167793
+2012,PINFISH,,,,Confidential,Commercial,Lagodon rhomboides,169187
+2012,"POMPANO, FLORIDA",,,,Confidential,Commercial,Trachinotus carolinus,168708
+2012,"PORGY, WHITEBONE",,,,Confidential,Commercial,Calamus leucosteus,169200
+2012,RAYS **,,,,Confidential,Commercial,Rajiformes,160806
+2012,"RUNNER, BLUE",,,,Confidential,Commercial,Caranx crysos,168612
+2012,SCADS **,,,,Confidential,Commercial,Decapterus ,168723
+2012,SCAMP,,,,Confidential,Commercial,Mycteroperca phenax,167763
+2012,"SEATROUT, SAND","3,755",2,"4,657",Public,Commercial,Cynoscion arenarius,169243
+2012,"SEATROUT, SPOTTED","61,099",28,"155,702",Public,Commercial,Cynoscion nebulosus,169239
+2012,SHEEPSHEAD,"44,175",20,"27,371",Public,Commercial,Archosargus probatocephalus,169189
+2012,"SHRIMP, BROWN","9,197,616","4,172","15,758,542",Public,Commercial,Penaeus aztecus,95605
+2012,"SHRIMP, NORTHERN PINK",,,,Confidential,Commercial,Penaeus duorarum,95608
+2012,"SHRIMP, NORTHERN WHITE","3,808,135","1,727","8,006,525",Public,Commercial,Penaeus setiferus,95610
+2012,"SNAPPER, GRAY",891,0,"1,625",Public,Commercial,Lutjanus griseus,168848
+2012,"SNAPPER, LANE",,,,Confidential,Commercial,Lutjanus synagris,168860
+2012,"SNAPPER, RED","114,895",52,"226,032",Public,Commercial,Lutjanus campechanus,168853
+2012,"SNAPPER, VERMILION",,,,Confidential,Commercial,Rhomboplites aurorubens,168909
+2012,"SNAPPERS, LUTJANIDAE (FAMILY) **",,,,Confidential,Commercial,Lutjanidae,168845
+2012,SPADEFISH,,,,Confidential,Commercial,Ephippidae ,553178
+2012,SPOT,,,,Confidential,Commercial,Leiostomus xanthurus,169267
+2012,"SQUIDS, LOLIGINIDAE **",,,,Confidential,Commercial,Loliginidae,82369
+2012,"STINGRAYS, DASYATIDAE (FAMILY) **",,,,Confidential,Commercial,Dasyatidae,160946
+2012,"TRIGGERFISH, GRAY",,,,Confidential,Commercial,Balistes capriscus,173138
+2012,TRIPLETAIL,254,0,543,Public,Commercial,Lobotes surinamensis,169007
+2012,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2012,"VERTEBRATES, JAWED","31,186",14,"8,004",Public,Commercial,Gnathostomata ,914179
+2012,WAHOO,,,,Confidential,Commercial,Acanthocybium solandri,172451
+2013,"AMBERJACK, GREATER",,,,Confidential,Commercial,Seriola dumerili,168689
+2013,"AMBERJACK, LESSER",,,,Confidential,Commercial,Seriola fasciata,168690
+2013,"BARRACUDAS, SPHYRAENIDAE (FAMILY) **",,,,Confidential,Commercial,Sphyraenidae,170424
+2013,BLUEFISH,,,,Confidential,Commercial,Pomatomus saltatrix,168559
+2013,"CATFISHES, FORKTAIL **",,,,Confidential,Commercial,Ictalurus,163996
+2013,"CATFISHES, SEA **",,,,Confidential,Commercial,Ariidae,164157
+2013,"CRAB, BLUE","359,254",163,"415,898",Public,Commercial,Callinectes sapidus,98696
+2013,"CRABS, DECAPODA (ORDER) **",,,,Confidential,Commercial,Decapoda,95599
+2013,DOLPHINFISH,,,,Confidential,Commercial,Coryphaena hippurus,168791
+2013,"DRUM, BLACK","10,621",5,"6,537",Public,Commercial,Pogonias cromis,169288
+2013,"DRUM, RED","36,516",17,"74,510",Public,Commercial,Sciaenops ocellatus,169290
+2013,FLATFISHES **,"18,704",8,"44,557",Public,Commercial,Pleuronectiformes,172702
+2013,GARFISHES **,,,,Confidential,Commercial,Lepisosteidae,161092
+2013,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2013,"GROUPER, RED",,,,Confidential,Commercial,Epinephelus morio,167702
+2013,"GROUPER, WARSAW",,,,Confidential,Commercial,Epinephelus nigritus,167704
+2013,"GROUPER, YELLOWEDGE",,,,Confidential,Commercial,Epinephelus flavolimbatus,167699
+2013,"GRUNTS, HAEMULIDAE (FAMILY) **",,,,Confidential,Commercial,Haemulidae,169055
+2013,HARVESTFISHES **,,,,Confidential,Commercial,Peprilus,172564
+2013,"JACK, ALMACO",,,,Confidential,Commercial,Seriola rivoliana,168691
+2013,"JACK, CREVALLE",,,,Confidential,Commercial,Caranx hippos,168609
+2013,JACKS **,,,,Confidential,Commercial,Carangidae,168584
+2013,KINGFISHES **,"2,128",1,"2,153",Public,Commercial,Menticirrhus,169273
+2013,LADYFISH,,,,Confidential,Commercial,Elops saurus,161111
+2013,LOOKDOWN,,,,Confidential,Commercial,Selene vomer,168680
+2013,"MACKEREL, KING",,,,Confidential,Commercial,Scomberomorus cavalla,172435
+2013,"MACKEREL, SPANISH",749,0,554,Public,Commercial,Scomberomorus maculatus,172436
+2013,MENHADENS **,"170,494,646","77,336","10,230,035",Public,Commercial,Brevoortia ,161731
+2013,"MULLET, STRIPED","95,386",43,"61,039",Public,Commercial,Mugil cephalus,170335
+2013,"OYSTER, EASTERN","336,192",152,"1,543,719",Public,Commercial,Crassostrea virginica,79872
+2013,PINFISH,,,,Confidential,Commercial,Lagodon rhomboides,169187
+2013,"POMPANO, FLORIDA",,,,Confidential,Commercial,Trachinotus carolinus,168708
+2013,"PORGY, RED",,,,Confidential,Commercial,Pagrus pagrus,169207
+2013,"PORGY, WHITEBONE",,,,Confidential,Commercial,Calamus leucosteus,169200
+2013,"RUNNER, BLUE",,,,Confidential,Commercial,Caranx crysos,168612
+2013,"RUNNER, RAINBOW",,,,Confidential,Commercial,Elagatis bipinnulata,168738
+2013,SCAMP,,,,Confidential,Commercial,Mycteroperca phenax,167763
+2013,"SEATROUT, SAND","2,361",1,"2,137",Public,Commercial,Cynoscion arenarius,169243
+2013,"SEATROUT, SPOTTED","50,820",23,"127,977",Public,Commercial,Cynoscion nebulosus,169239
+2013,SHEEPSHEAD,"31,419",14,"20,271",Public,Commercial,Archosargus probatocephalus,169189
+2013,"SHRIMP, BROWN","5,565,645","2,525","11,807,195",Public,Commercial,Penaeus aztecus,95605
+2013,"SHRIMP, NORTHERN WHITE","3,336,862","1,514","10,262,302",Public,Commercial,Penaeus setiferus,95610
+2013,"SHRIMPS, ROCK **",,,,Confidential,Commercial,Sicyonia,96027
+2013,"SNAPPER, GRAY",,,,Confidential,Commercial,Lutjanus griseus,168848
+2013,"SNAPPER, LANE",,,,Confidential,Commercial,Lutjanus synagris,168860
+2013,"SNAPPER, RED",,,,Confidential,Commercial,Lutjanus campechanus,168853
+2013,"SNAPPER, VERMILION",,,,Confidential,Commercial,Rhomboplites aurorubens,168909
+2013,SPADEFISH,,,,Confidential,Commercial,Ephippidae ,553178
+2013,SPOT,,,,Confidential,Commercial,Leiostomus xanthurus,169267
+2013,"SQUIDS, LOLIGINIDAE **",,,,Confidential,Commercial,Loliginidae,82369
+2013,"TRIGGERFISH, GRAY",,,,Confidential,Commercial,Balistes capriscus,173138
+2013,TRIPLETAIL,329,0,816,Public,Commercial,Lobotes surinamensis,169007
+2013,"TUNA, ALBACORE",,,,Confidential,Commercial,Thunnus alalunga,172419
+2013,"TUNA, BLACKFIN",,,,Confidential,Commercial,Thunnus atlanticus,172427
+2013,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2013,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423
+2013,"VERTEBRATES, JAWED","1,228",1,563,Public,Commercial,Gnathostomata ,914179
+2013,WAHOO,,,,Confidential,Commercial,Acanthocybium solandri,172451
+2014,"AMBERJACK, GREATER",,,,Confidential,Commercial,Seriola dumerili,168689
+2014,"BARRACUDAS, SPHYRAENIDAE (FAMILY) **",,,,Confidential,Commercial,Sphyraenidae,170424
+2014,BLUEFISH,,,,Confidential,Commercial,Pomatomus saltatrix,168559
+2014,"CATFISH, BLUE",,,,Confidential,Commercial,Ictalurus furcatus,163997
+2014,"CATFISHES, SEA **","3,620",2,"6,038",Public,Commercial,Ariidae,164157
+2014,"CRAB, BLUE","558,877",254,"930,503",Public,Commercial,Callinectes sapidus,98696
+2014,"CROAKER, ATLANTIC",,,,Confidential,Commercial,Micropogonias undulatus,169283
+2014,DOLPHINFISH,,,,Confidential,Commercial,Coryphaena hippurus,168791
+2014,"DRUM, BLACK","4,757",2,"4,024",Public,Commercial,Pogonias cromis,169288
+2014,"DRUM, RED","43,243",20,"92,811",Public,Commercial,Sciaenops ocellatus,169290
+2014,"FLOUNDERS, PARALICHTHYS **","16,375",7,"44,277",Public,Commercial,Paralichthys,172734
+2014,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2014,"GROUPER, WARSAW",,,,Confidential,Commercial,Epinephelus nigritus,167704
+2014,"GRUNTS, HAEMULIDAE (FAMILY) **",,,,Confidential,Commercial,Haemulidae,169055
+2014,"JACK, ALMACO",,,,Confidential,Commercial,Seriola rivoliana,168691
+2014,"JACK, CREVALLE",,,,Confidential,Commercial,Caranx hippos,168609
+2014,KINGFISHES **,"3,093",1,"3,935",Public,Commercial,Menticirrhus,169273
+2014,LADYFISH,,,,Confidential,Commercial,Elops saurus,161111
+2014,LOOKDOWN,,,,Confidential,Commercial,Selene vomer,168680
+2014,"MACKEREL, SPANISH",410,0,324,Public,Commercial,Scomberomorus maculatus,172436
+2014,MENHADENS **,"183,949,994","83,439","20,234,499",Public,Commercial,Brevoortia ,161731
+2014,"MULLET, STRIPED","21,167",10,"13,216",Public,Commercial,Mugil cephalus,170335
+2014,"MULLET, WHITE",403,0,331,Public,Commercial,Mugil curema,170336
+2014,MULLETS **,,,,Confidential,Commercial,Mugilidae,170333
+2014,"OYSTER, EASTERN","333,208",151,"1,741,954",Public,Commercial,Crassostrea virginica,79872
+2014,"POMPANO, FLORIDA",,,,Confidential,Commercial,Trachinotus carolinus,168708
+2014,"PORGY, WHITEBONE",,,,Confidential,Commercial,Calamus leucosteus,169200
+2014,"RUNNER, BLUE",,,,Confidential,Commercial,Caranx crysos,168612
+2014,"RUNNER, RAINBOW",,,,Confidential,Commercial,Elagatis bipinnulata,168738
+2014,SCAMP,,,,Confidential,Commercial,Mycteroperca phenax,167763
+2014,"SEATROUT, SAND","1,680",1,"2,116",Public,Commercial,Cynoscion arenarius,169243
+2014,"SEATROUT, SPOTTED","29,437",13,"88,133",Public,Commercial,Cynoscion nebulosus,169239
+2014,SHEEPSHEAD,"16,459",7,"11,211",Public,Commercial,Archosargus probatocephalus,169189
+2014,"SHRIMP, ATLANIC SEABOB",,,,Confidential,Commercial,Xiphopenaeus kroyeri,95750
+2014,"SHRIMP, BROWN","3,545,074","1,608","9,792,627",Public,Commercial,Penaeus aztecus,95605
+2014,"SHRIMP, NORTHERN PINK",,,,Confidential,Commercial,Penaeus duorarum,95608
+2014,"SHRIMP, NORTHERN WHITE","1,641,828",745,"5,176,830",Public,Commercial,Penaeus setiferus,95610
+2014,"SNAPPER, GRAY",,,,Confidential,Commercial,Lutjanus griseus,168848
+2014,"SNAPPER, LANE",,,,Confidential,Commercial,Lutjanus synagris,168860
+2014,"SNAPPER, RED","139,103",63,"250,828",Public,Commercial,Lutjanus campechanus,168853
+2014,"SNAPPER, VERMILION",,,,Confidential,Commercial,Rhomboplites aurorubens,168909
+2014,SPADEFISH,,,,Confidential,Commercial,Ephippidae ,553178
+2014,SPOT,,,,Confidential,Commercial,Leiostomus xanthurus,169267
+2014,"SQUIDS, LOLIGINIDAE **",,,,Confidential,Commercial,Loliginidae,82369
+2014,"TRIGGERFISH, GRAY",,,,Confidential,Commercial,Balistes capriscus,173138
+2014,TRIPLETAIL,,,,Confidential,Commercial,Lobotes surinamensis,169007
+2014,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2014,"VERTEBRATES, JAWED",,,,Confidential,Commercial,Gnathostomata ,914179
+2015,"AMBERJACK, GREATER",,,,Confidential,Commercial,Seriola dumerili,168689
+2015,AMBERJACKS **,,,,Confidential,Commercial,Seriola,168688
+2015,"BARRACUDAS, SPHYRAENIDAE (FAMILY) **",,,,Confidential,Commercial,Sphyraenidae,170424
+2015,BLUEFISH,,,,Confidential,Commercial,Pomatomus saltatrix,168559
+2015,"CATFISH, BLUE",,,,Confidential,Commercial,Ictalurus furcatus,163997
+2015,"CATFISHES, SEA **",,,,Confidential,Commercial,Ariidae,164157
+2015,"CRAB, BLUE","798,305",362,"1,209,370",Public,Commercial,Callinectes sapidus,98696
+2015,"CROAKER, ATLANTIC","84,864",38,"21,623",Public,Commercial,Micropogonias undulatus,169283
+2015,DOLPHINFISH,,,,Confidential,Commercial,Coryphaena hippurus,168791
+2015,"DRUM, BLACK","12,198",6,"12,735",Public,Commercial,Pogonias cromis,169288
+2015,"DRUM, RED","61,492",28,"155,493",Public,Commercial,Sciaenops ocellatus,169290
+2015,"FLOUNDERS, PARALICHTHYS **","29,229",13,"76,166",Public,Commercial,Paralichthys,172734
+2015,"GROUPER, BLACK",,,,Confidential,Commercial,Mycteroperca bonaci,167760
+2015,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2015,"GROUPER, WARSAW",,,,Confidential,Commercial,Epinephelus nigritus,167704
+2015,"JACK, ALMACO",,,,Confidential,Commercial,Seriola rivoliana,168691
+2015,"JACK, CREVALLE",,,,Confidential,Commercial,Caranx hippos,168609
+2015,KINGFISHES **,"1,851",1,"2,668",Public,Commercial,Menticirrhus,169273
+2015,LADYFISH,,,,Confidential,Commercial,Elops saurus,161111
+2015,"MACKEREL, KING",,,,Confidential,Commercial,Scomberomorus cavalla,172435
+2015,"MACKEREL, SPANISH",286,0,241,Public,Commercial,Scomberomorus maculatus,172436
+2015,MENHADENS **,"294,189,312","133,443","52,961,915",Public,Commercial,Brevoortia ,161731
+2015,"MULLET, STRIPED","20,478",9,"11,026",Public,Commercial,Mugil cephalus,170335
+2015,"MULLET, WHITE","1,008",0,"1,033",Public,Commercial,Mugil curema,170336
+2015,"OYSTER, EASTERN","185,688",84,"989,295",Public,Commercial,Crassostrea virginica,79872
+2015,"POMPANO, FLORIDA",,,,Confidential,Commercial,Trachinotus carolinus,168708
+2015,"RUNNER, BLUE",,,,Confidential,Commercial,Caranx crysos,168612
+2015,"RUNNER, RAINBOW",,,,Confidential,Commercial,Elagatis bipinnulata,168738
+2015,SCAMP,,,,Confidential,Commercial,Mycteroperca phenax,167763
+2015,"SEATROUT, SAND","2,158",1,"2,227",Public,Commercial,Cynoscion arenarius,169243
+2015,"SEATROUT, SPOTTED","27,995",13,"82,804",Public,Commercial,Cynoscion nebulosus,169239
+2015,SHEEPSHEAD,"10,547",5,"8,194",Public,Commercial,Archosargus probatocephalus,169189
+2015,"SHRIMP, ATLANIC SEABOB",,,,Confidential,Commercial,Xiphopenaeus kroyeri,95750
+2015,"SHRIMP, BROWN","6,544,996","2,969","5,393,392",Public,Commercial,Penaeus aztecus,95605
+2015,"SHRIMP, NORTHERN PINK",,,,Confidential,Commercial,Penaeus duorarum,95608
+2015,"SHRIMP, NORTHERN WHITE","2,640,028","1,198","3,803,790",Public,Commercial,Penaeus setiferus,95610
+2015,"SHRIMPS, ROCK **",,,,Confidential,Commercial,Sicyonia,96027
+2015,"SNAPPER, LANE",,,,Confidential,Commercial,Lutjanus synagris,168860
+2015,"SNAPPER, RED",,,,Confidential,Commercial,Lutjanus campechanus,168853
+2015,"SNAPPER, VERMILION",,,,Confidential,Commercial,Rhomboplites aurorubens,168909
+2015,SPADEFISH,,,,Confidential,Commercial,Ephippidae ,553178
+2015,SPOT,,,,Confidential,Commercial,Leiostomus xanthurus,169267
+2015,"SQUIDS, LOLIGINIDAE **",,,,Confidential,Commercial,Loliginidae,82369
+2015,"TRIGGERFISH, GRAY",,,,Confidential,Commercial,Balistes capriscus,173138
+2015,TRIPLETAIL,343,0,"1,006",Public,Commercial,Lobotes surinamensis,169007
+2015,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2015,"TUNA, YELLOWFIN",,,,Confidential,Commercial,Thunnus albacares,172423
+2015,"VERTEBRATES, JAWED",102,0,106,Public,Commercial,Gnathostomata ,914179
+2016,"AMBERJACK, GREATER",,,,Confidential,Commercial,Seriola dumerili,168689
+2016,"BARRACUDAS, SPHYRAENIDAE (FAMILY) **",,,,Confidential,Commercial,Sphyraenidae,170424
+2016,BLUEFISH,,,,Confidential,Commercial,Pomatomus saltatrix,168559
+2016,"CATFISHES, SEA **",,,,Confidential,Commercial,Ariidae,164157
+2016,"CRAB, BLUE","780,047",354,"912,739",Public,Commercial,Callinectes sapidus,98696
+2016,"CRAB, FLORIDA STONE",,,,Confidential,Commercial,Menippe mercenaria,98811
+2016,DOLPHINFISH,,,,Confidential,Commercial,Coryphaena hippurus,168791
+2016,"DRUM, BLACK","12,467",6,"10,326",Public,Commercial,Pogonias cromis,169288
+2016,"DRUM, RED","60,511",27,"149,809",Public,Commercial,Sciaenops ocellatus,169290
+2016,"FLOUNDERS, PARALICHTHYS **","26,548",12,"75,215",Public,Commercial,Paralichthys,172734
+2016,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2016,"GROUPER, WARSAW",,,,Confidential,Commercial,Epinephelus nigritus,167704
+2016,"GRUNTS, HAEMULIDAE (FAMILY) **",,,,Confidential,Commercial,Haemulidae,169055
+2016,"JACK, ALMACO",,,,Confidential,Commercial,Seriola rivoliana,168691
+2016,KINGFISHES **,"2,875",1,"3,816",Public,Commercial,Menticirrhus,169273
+2016,LADYFISH,,,,Confidential,Commercial,Elops saurus,161111
+2016,LOOKDOWN,,,,Confidential,Commercial,Selene vomer,168680
+2016,"MACKEREL, KING",,,,Confidential,Commercial,Scomberomorus cavalla,172435
+2016,"MACKEREL, SPANISH",,,,Confidential,Commercial,Scomberomorus maculatus,172436
+2016,MENHADENS **,"294,189,312","133,443","10,973,261",Public,Commercial,Brevoortia ,161731
+2016,"MULLET, STRIPED","38,662",18,"20,107",Public,Commercial,Mugil cephalus,170335
+2016,"MULLET, WHITE","1,290",1,"1,859",Public,Commercial,Mugil curema,170336
+2016,MULLETS **,,,,Confidential,Commercial,Mugilidae,170333
+2016,"OYSTER, EASTERN","474,784",215,"2,026,894",Public,Commercial,Crassostrea virginica,79872
+2016,PINFISH,,,,Confidential,Commercial,Lagodon rhomboides,169187
+2016,"POMPANO, FLORIDA",,,,Confidential,Commercial,Trachinotus carolinus,168708
+2016,"PORGY, RED",,,,Confidential,Commercial,Pagrus pagrus,169207
+2016,"RUNNER, BLUE",,,,Confidential,Commercial,Caranx crysos,168612
+2016,"RUNNER, RAINBOW",,,,Confidential,Commercial,Elagatis bipinnulata,168738
+2016,SCAMP,,,,Confidential,Commercial,Mycteroperca phenax,167763
+2016,"SEATROUT, SAND","2,046",1,"2,485",Public,Commercial,Cynoscion arenarius,169243
+2016,"SEATROUT, SPOTTED","50,436",23,"161,241",Public,Commercial,Cynoscion nebulosus,169239
+2016,SHEEPSHEAD,"22,114",10,"14,553",Public,Commercial,Archosargus probatocephalus,169189
+2016,"SHRIMP, BROWN","6,412,041","2,908","6,236,690",Public,Commercial,Penaeus aztecus,95605
+2016,"SHRIMP, NORTHERN PINK","310,662",141,"371,675",Public,Commercial,Penaeus duorarum,95608
+2016,"SHRIMP, NORTHERN WHITE","5,597,822","2,539","8,963,522",Public,Commercial,Penaeus setiferus,95610
+2016,"SHRIMPS, ROCK **","3,894",2,"3,822",Public,Commercial,Sicyonia,96027
+2016,"SNAPPER, GRAY",,,,Confidential,Commercial,Lutjanus griseus,168848
+2016,"SNAPPER, LANE",,,,Confidential,Commercial,Lutjanus synagris,168860
+2016,"SNAPPER, RED",,,,Confidential,Commercial,Lutjanus campechanus,168853
+2016,"SNAPPER, VERMILION",,,,Confidential,Commercial,Rhomboplites aurorubens,168909
+2016,SPADEFISH,,,,Confidential,Commercial,Ephippidae ,553178
+2016,SPOT,,,,Confidential,Commercial,Leiostomus xanthurus,169267
+2016,"SQUIDS, LOLIGINIDAE **",,,,Confidential,Commercial,Loliginidae,82369
+2016,"TRIGGERFISH, GRAY",,,,Confidential,Commercial,Balistes capriscus,173138
+2016,TRIPLETAIL,"1,416",1,"4,434",Public,Commercial,Lobotes surinamensis,169007
+2016,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2016,"VERTEBRATES, JAWED",,,,Confidential,Commercial,Gnathostomata ,914179
+2017,"AMBERJACK, GREATER",,,,Confidential,Commercial,Seriola dumerili,168689
+2017,"BARRACUDAS, SPHYRAENIDAE (FAMILY) **",,,,Confidential,Commercial,Sphyraenidae,170424
+2017,BLUEFISH,"3,272",1,"1,175",Public,Commercial,Pomatomus saltatrix,168559
+2017,"CATFISHES, SEA **","3,273",1,"1,275",Public,Commercial,Ariidae,164157
+2017,"CRAB, BLUE","625,683",284,"792,782",Public,Commercial,Callinectes sapidus,98696
+2017,"CROAKER, ATLANTIC",,,,Confidential,Commercial,Micropogonias undulatus,169283
+2017,DOLPHINFISH,,,,Confidential,Commercial,Coryphaena hippurus,168791
+2017,"DRUM, BLACK","13,966",6,"9,578",Public,Commercial,Pogonias cromis,169288
+2017,"DRUM, RED","56,597",26,"139,759",Public,Commercial,Sciaenops ocellatus,169290
+2017,"FLOUNDERS, PARALICHTHYS **","8,306",4,"27,201",Public,Commercial,Paralichthys,172734
+2017,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2017,"GROUPER, WARSAW",,,,Confidential,Commercial,Epinephelus nigritus,167704
+2017,"GRUNTS, HAEMULIDAE (FAMILY) **",,,,Confidential,Commercial,Haemulidae,169055
+2017,"JACK, ALMACO",,,,Confidential,Commercial,Seriola rivoliana,168691
+2017,"JACK, CREVALLE",,,,Confidential,Commercial,Caranx hippos,168609
+2017,KINGFISHES **,"2,041",1,"2,852",Public,Commercial,Menticirrhus,169273
+2017,LADYFISH,"14,903",7,"10,130",Public,Commercial,Elops saurus,161111
+2017,LOOKDOWN,,,,Confidential,Commercial,Selene vomer,168680
+2017,"MACKEREL, KING",,,,Confidential,Commercial,Scomberomorus cavalla,172435
+2017,"MACKEREL, SPANISH","15,279",7,"16,438",Public,Commercial,Scomberomorus maculatus,172436
+2017,MENHADENS **,"299,629,904","135,911","11,086,305",Public,Commercial,Brevoortia ,161731
+2017,"MULLET, STRIPED","61,864",28,"33,797",Public,Commercial,Mugil cephalus,170335
+2017,"MULLET, WHITE","5,719",3,"5,297",Public,Commercial,Mugil curema,170336
+2017,"OYSTER, EASTERN","92,392",42,"527,941",Public,Commercial,Crassostrea virginica,79872
+2017,PINFISH,11,0,5,Public,Commercial,Lagodon rhomboides,169187
+2017,"POMPANO, FLORIDA","2,962",1,"9,642",Public,Commercial,Trachinotus carolinus,168708
+2017,"PORGY, RED",,,,Confidential,Commercial,Pagrus pagrus,169207
+2017,"PORGY, WHITEBONE",,,,Confidential,Commercial,Calamus leucosteus,169200
+2017,"RUNNER, BLUE",521,0,296,Public,Commercial,Caranx crysos,168612
+2017,SCAMP,,,,Confidential,Commercial,Mycteroperca phenax,167763
+2017,"SEATROUT, SAND","2,576",1,"3,668",Public,Commercial,Cynoscion arenarius,169243
+2017,"SEATROUT, SPOTTED","54,062",25,"237,013",Public,Commercial,Cynoscion nebulosus,169239
+2017,SHEEPSHEAD,"19,605",9,"14,053",Public,Commercial,Archosargus probatocephalus,169189
+2017,"SHRIMP, BROWN","7,143,070","3,240","9,711,976",Public,Commercial,Penaeus aztecus,95605
+2017,"SHRIMP, NORTHERN PINK","65,512",30,"144,357",Public,Commercial,Penaeus duorarum,95608
+2017,"SHRIMP, NORTHERN WHITE","3,357,426","1,523","8,099,488",Public,Commercial,Penaeus setiferus,95610
+2017,"SNAPPER, GRAY",729,0,"1,317",Public,Commercial,Lutjanus griseus,168848
+2017,"SNAPPER, LANE",,,,Confidential,Commercial,Lutjanus synagris,168860
+2017,"SNAPPER, RED",,,,Confidential,Commercial,Lutjanus campechanus,168853
+2017,"SNAPPER, VERMILION",,,,Confidential,Commercial,Rhomboplites aurorubens,168909
+2017,SPADEFISH,"11,404",5,"5,940",Public,Commercial,Ephippidae ,553178
+2017,SPOT,"1,244",1,458,Public,Commercial,Leiostomus xanthurus,169267
+2017,"SQUIDS, LOLIGINIDAE **",,,,Confidential,Commercial,Loliginidae,82369
+2017,"TRIGGERFISH, GRAY",,,,Confidential,Commercial,Balistes capriscus,173138
+2017,TRIPLETAIL,290,0,879,Public,Commercial,Lobotes surinamensis,169007
+2017,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2017,"VERTEBRATES, JAWED",,,,Confidential,Commercial,Gnathostomata ,914179
+2018,"BARRACUDAS, SPHYRAENIDAE (FAMILY) **",,,,Confidential,Commercial,Sphyraenidae,170424
+2018,BLUEFISH,"8,140",4,"3,623",Public,Commercial,Pomatomus saltatrix,168559
+2018,"CATFISHES, SEA **","2,738",1,"1,229",Public,Commercial,Ariidae,164157
+2018,"CRAB, BLUE","518,781",235,"805,904",Public,Commercial,Callinectes sapidus,98696
+2018,"CROAKER, ATLANTIC",,,,Confidential,Commercial,Micropogonias undulatus,169283
+2018,DOLPHINFISH,,,,Confidential,Commercial,Coryphaena hippurus,168791
+2018,"DRUM, BLACK","8,602",4,"5,086",Public,Commercial,Pogonias cromis,169288
+2018,"DRUM, RED","47,684",22,"115,502",Public,Commercial,Sciaenops ocellatus,169290
+2018,DRUMS **,,,,Confidential,Commercial,Sciaenidae,169237
+2018,"FLOUNDERS, PARALICHTHYS **","13,089",6,"44,683",Public,Commercial,Paralichthys,172734
+2018,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2018,"GROUPER, WARSAW",,,,Confidential,Commercial,Epinephelus nigritus,167704
+2018,HARVESTFISHES **,349,0,144,Public,Commercial,Peprilus,172564
+2018,"JACK, ALMACO",,,,Confidential,Commercial,Seriola rivoliana,168691
+2018,"JACK, CREVALLE",463,0,48,Public,Commercial,Caranx hippos,168609
+2018,KINGFISHES **,"2,267",1,"3,445",Public,Commercial,Menticirrhus,169273
+2018,LADYFISH,"4,666",2,"3,164",Public,Commercial,Elops saurus,161111
+2018,LOOKDOWN,,,,Confidential,Commercial,Selene vomer,168680
+2018,"MACKEREL, KING",,,,Confidential,Commercial,Scomberomorus cavalla,172435
+2018,"MACKEREL, SPANISH","32,876",15,"46,642",Public,Commercial,Scomberomorus maculatus,172436
+2018,MENHADENS **,"309,058,270","140,188","25,991,800",Public,Commercial,Brevoortia ,161731
+2018,"MULLET, STRIPED","167,960",76,"68,038",Public,Commercial,Mugil cephalus,170335
+2018,"MULLET, WHITE","7,614",3,"3,861",Public,Commercial,Mugil curema,170336
+2018,"OYSTER, EASTERN","31,832",14,"183,365",Public,Commercial,Crassostrea virginica,79872
+2018,PINFISH,,,,Confidential,Commercial,Lagodon rhomboides,169187
+2018,"POMPANO, FLORIDA","2,726",1,"8,919",Public,Commercial,Trachinotus carolinus,168708
+2018,"PORGY, RED",,,,Confidential,Commercial,Pagrus pagrus,169207
+2018,"PORGY, WHITEBONE",,,,Confidential,Commercial,Calamus leucosteus,169200
+2018,"RUNNER, BLUE",373,0,213,Public,Commercial,Caranx crysos,168612
+2018,SCAMP,,,,Confidential,Commercial,Mycteroperca phenax,167763
+2018,"SEATROUT, SAND","3,666",2,"4,758",Public,Commercial,Cynoscion arenarius,169243
+2018,"SEATROUT, SPOTTED","52,404",24,"162,046",Public,Commercial,Cynoscion nebulosus,169239
+2018,"SHAD, THREADFIN",,,,Confidential,Commercial,Dorosoma petenense,161738
+2018,SHEEPSHEAD,"24,120",11,"20,338",Public,Commercial,Archosargus probatocephalus,169189
+2018,"SHRIMP, BROWN","6,208,266","2,816","9,117,024",Public,Commercial,Penaeus aztecus,95605
+2018,"SHRIMP, NORTHERN PINK",,,,Confidential,Commercial,Penaeus duorarum,95608
+2018,"SHRIMP, NORTHERN WHITE","3,687,698","1,673","8,000,346",Public,Commercial,Penaeus setiferus,95610
+2018,"SNAPPER, GRAY",,,,Confidential,Commercial,Lutjanus griseus,168848
+2018,"SNAPPER, LANE",,,,Confidential,Commercial,Lutjanus synagris,168860
+2018,"SNAPPER, RED",,,,Confidential,Commercial,Lutjanus campechanus,168853
+2018,"SNAPPER, VERMILION",,,,Confidential,Commercial,Rhomboplites aurorubens,168909
+2018,SPADEFISH,"6,013",3,"3,017",Public,Commercial,Ephippidae ,553178
+2018,SPOT,770,0,383,Public,Commercial,Leiostomus xanthurus,169267
+2018,"SQUIDS, LOLIGINIDAE **",,,,Confidential,Commercial,Loliginidae,82369
+2018,"TRIGGERFISH, GRAY",,,,Confidential,Commercial,Balistes capriscus,173138
+2018,TRIPLETAIL,537,0,"1,401",Public,Commercial,Lobotes surinamensis,169007
+2018,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2018,"VERTEBRATES, JAWED",,,,Confidential,Commercial,Gnathostomata ,914179
+2019,"AMBERJACK, GREATER",580,0,"1,060",Public,Commercial,Seriola dumerili,168689
+2019,"BARRACUDAS, SPHYRAENIDAE (FAMILY) **",,,,Confidential,Commercial,Sphyraenidae,170424
+2019,BLUEFISH,"4,253",2,"1,711",Public,Commercial,Pomatomus saltatrix,168559
+2019,"BROTULA, BEARDED",,,,Confidential,Commercial,Brotula barbata,164818
+2019,"BUMPER, ATLANTIC",,,,Confidential,Commercial,Chloroscombrus chrysurus,168670
+2019,"CATFISHES, SEA **",751,0,263,Public,Commercial,Ariidae,164157
+2019,"CRAB, BLUE","927,681",421,"1,274,797",Public,Commercial,Callinectes sapidus,98696
+2019,"CRABS, DECAPODA (ORDER) **",,,,Confidential,Commercial,Decapoda,95599
+2019,"CROAKER, ATLANTIC",,,,Confidential,Commercial,Micropogonias undulatus,169283
+2019,DOLPHINFISH,,,,Confidential,Commercial,Coryphaena hippurus,168791
+2019,"DRUM, BLACK","6,715",3,"4,403",Public,Commercial,Pogonias cromis,169288
+2019,"DRUM, RED","61,531",28,"154,178",Public,Commercial,Sciaenops ocellatus,169290
+2019,DRUMS **,,,,Confidential,Commercial,Sciaenidae,169237
+2019,"FLOUNDERS, PARALICHTHYS **","30,594",14,"98,973",Public,Commercial,Paralichthys,172734
+2019,"GROUPER, BLACK",,,,Confidential,Commercial,Mycteroperca bonaci,167760
+2019,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2019,"GROUPER, SNOWY",,,,Confidential,Commercial,Epinephelus niveatus,167705
+2019,"GRUNTS, HAEMULIDAE (FAMILY) **",,,,Confidential,Commercial,Haemulidae,169055
+2019,HARVESTFISHES **,,,,Confidential,Commercial,Peprilus,172564
+2019,"JACK, ALMACO",131,0,214,Public,Commercial,Seriola rivoliana,168691
+2019,"JACK, CREVALLE",,,,Confidential,Commercial,Caranx hippos,168609
+2019,KINGFISHES **,"6,970",3,"8,699",Public,Commercial,Menticirrhus,169273
+2019,LADYFISH,"4,670",2,"3,662",Public,Commercial,Elops saurus,161111
+2019,LOOKDOWN,,,,Confidential,Commercial,Selene vomer,168680
+2019,"MACKEREL, KING",,,,Confidential,Commercial,Scomberomorus cavalla,172435
+2019,"MACKEREL, SPANISH","16,041",7,"17,237",Public,Commercial,Scomberomorus maculatus,172436
+2019,MENHADENS **,"332,372,371","150,763","41,992,409",Public,Commercial,Brevoortia ,161731
+2019,MINNOWS **,,,,Confidential,Commercial,Cyprinidae,163342
+2019,"MOONFISH, ATLANTIC",,,,Confidential,Commercial,Selene setapinnis,168684
+2019,"MULLET, STRIPED","34,720",16,"17,457",Public,Commercial,Mugil cephalus,170335
+2019,"MULLET, WHITE",194,0,183,Public,Commercial,Mugil curema,170336
+2019,PINFISH,,,,Confidential,Commercial,Lagodon rhomboides,169187
+2019,"POMPANO, FLORIDA",,,,Confidential,Commercial,Trachinotus carolinus,168708
+2019,PORGIES **,,,,Confidential,Commercial,Sparidae,169180
+2019,"PORGY, RED",,,,Confidential,Commercial,Pagrus pagrus,169207
+2019,"PORGY, WHITEBONE",,,,Confidential,Commercial,Calamus leucosteus,169200
+2019,"RUNNER, BLUE",,,,Confidential,Commercial,Caranx crysos,168612
+2019,"RUNNER, RAINBOW",,,,Confidential,Commercial,Elagatis bipinnulata,168738
+2019,SCAMP,,,,Confidential,Commercial,Mycteroperca phenax,167763
+2019,"SEATROUT, SAND","3,014",1,"5,407",Public,Commercial,Cynoscion arenarius,169243
+2019,"SEATROUT, SPOTTED","36,953",17,"128,191",Public,Commercial,Cynoscion nebulosus,169239
+2019,SHEEPSHEAD,"8,517",4,"6,560",Public,Commercial,Archosargus probatocephalus,169189
+2019,"SHRIMP, BROWN","1,547,611",702,"2,292,786",Public,Commercial,Penaeus aztecus,95605
+2019,"SHRIMP, NORTHERN PINK",,,,Confidential,Commercial,Penaeus duorarum,95608
+2019,"SHRIMP, NORTHERN WHITE","5,840,993","2,649","12,905,558",Public,Commercial,Penaeus setiferus,95610
+2019,"SNAPPER, GRAY",723,0,"1,320",Public,Commercial,Lutjanus griseus,168848
+2019,"SNAPPER, LANE",,,,Confidential,Commercial,Lutjanus synagris,168860
+2019,"SNAPPER, RED","197,592",90,"403,133",Public,Commercial,Lutjanus campechanus,168853
+2019,"SNAPPER, VERMILION",569,0,"1,384",Public,Commercial,Rhomboplites aurorubens,168909
+2019,SPADEFISH,,,,Confidential,Commercial,Ephippidae ,553178
+2019,SPOT,,,,Confidential,Commercial,Leiostomus xanthurus,169267
+2019,"SQUIDS, LOLIGINIDAE **",,,,Confidential,Commercial,Loliginidae,82369
+2019,"TRIGGERFISH, GRAY",,,,Confidential,Commercial,Balistes capriscus,173138
+2019,TRIPLETAIL,"3,014",1,"11,023",Public,Commercial,Lobotes surinamensis,169007
+2019,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2019,"VERTEBRATES, JAWED",,,,Confidential,Commercial,Gnathostomata ,914179
+2020,"AMBERJACK, GREATER",,,,Confidential,Commercial,Seriola dumerili,168689
+2020,"BARRACUDAS, SPHYRAENIDAE (FAMILY) **",,,,Confidential,Commercial,Sphyraenidae,170424
+2020,BLUEFISH,,,,Confidential,Commercial,Pomatomus saltatrix,168559
+2020,"BUMPER, ATLANTIC",,,,Confidential,Commercial,Chloroscombrus chrysurus,168670
+2020,"CATFISHES, SEA **",478,0,174,Public,Commercial,Ariidae,164157
+2020,"CRAB, BLUE","910,077",413,"1,340,474",Public,Commercial,Callinectes sapidus,98696
+2020,"CRAB, FLORIDA STONE",,,,Confidential,Commercial,Menippe mercenaria,98811
+2020,"CROAKER, ATLANTIC",61,0,55,Public,Commercial,Micropogonias undulatus,169283
+2020,"DRUM, BLACK","5,269",2,"3,672",Public,Commercial,Pogonias cromis,169288
+2020,"DRUM, RED","51,766",23,"132,975",Public,Commercial,Sciaenops ocellatus,169290
+2020,"FLOUNDERS, PARALICHTHYS **","6,631",3,"20,755",Public,Commercial,Paralichthys,172734
+2020,"GROUPER, BLACK",,,,Confidential,Commercial,Mycteroperca bonaci,167760
+2020,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2020,"GROUPER, WARSAW",,,,Confidential,Commercial,Epinephelus nigritus,167704
+2020,"GROUPERS, SERRANIDAE (FAMILY) **",,,,Confidential,Commercial,Serranidae,167674
+2020,HARVESTFISHES **,,,,Confidential,Commercial,Peprilus,172564
+2020,"JACK, ALMACO",,,,Confidential,Commercial,Seriola rivoliana,168691
+2020,"JACK, BAR",,,,Confidential,Commercial,Carangoides ruber,168615
+2020,"JACK, CREVALLE",,,,Confidential,Commercial,Caranx hippos,168609
+2020,KINGFISHES **,"3,085",1,"3,136",Public,Commercial,Menticirrhus,169273
+2020,LADYFISH,820,0,535,Public,Commercial,Elops saurus,161111
+2020,LOOKDOWN,,,,Confidential,Commercial,Selene vomer,168680
+2020,"MACKEREL, KING",,,,Confidential,Commercial,Scomberomorus cavalla,172435
+2020,"MACKEREL, SPANISH","11,486",5,"15,013",Public,Commercial,Scomberomorus maculatus,172436
+2020,MENHADENS **,"296,364,108","134,430","38,527,335",Public,Commercial,Brevoortia ,161731
+2020,MINNOWS **,,,,Confidential,Commercial,Cyprinidae,163342
+2020,"MULLET, STRIPED","23,441",11,"11,728",Public,Commercial,Mugil cephalus,170335
+2020,"MULLET, WHITE",,,,Confidential,Commercial,Mugil curema,170336
+2020,"POMPANO, FLORIDA",,,,Confidential,Commercial,Trachinotus carolinus,168708
+2020,"PORGY, RED",,,,Confidential,Commercial,Pagrus pagrus,169207
+2020,"RUNNER, BLUE",206,0,137,Public,Commercial,Caranx crysos,168612
+2020,SCAMP,,,,Confidential,Commercial,Mycteroperca phenax,167763
+2020,"SEATROUT, SAND","1,422",1,"1,662",Public,Commercial,Cynoscion arenarius,169243
+2020,"SEATROUT, SPOTTED","20,814",9,"71,869",Public,Commercial,Cynoscion nebulosus,169239
+2020,SHEEPSHEAD,"10,275",5,"8,178",Public,Commercial,Archosargus probatocephalus,169189
+2020,"SHRIMP, BROWN","2,362,366","1,072","3,657,543",Public,Commercial,Penaeus aztecus,95605
+2020,"SHRIMP, NORTHERN PINK",,,,Confidential,Commercial,Penaeus duorarum,95608
+2020,"SHRIMP, NORTHERN WHITE","4,469,449","2,027","9,354,794",Public,Commercial,Penaeus setiferus,95610
+2020,"SNAPPER, GRAY",204,0,418,Public,Commercial,Lutjanus griseus,168848
+2020,"SNAPPER, LANE",,,,Confidential,Commercial,Lutjanus synagris,168860
+2020,"SNAPPER, RED","186,950",85,"392,674",Public,Commercial,Lutjanus campechanus,168853
+2020,"SNAPPER, VERMILION",,,,Confidential,Commercial,Rhomboplites aurorubens,168909
+2020,SPADEFISH,,,,Confidential,Commercial,Ephippidae ,553178
+2020,"TRIGGERFISH, GRAY",,,,Confidential,Commercial,Balistes capriscus,173138
+2020,TRIPLETAIL,"1,817",1,"6,770",Public,Commercial,Lobotes surinamensis,169007
+2020,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2020,"VERTEBRATES, JAWED",,,,Confidential,Commercial,Gnathostomata ,914179
+2020,,,,,Confidential,Commercial,,
+2021,"AMBERJACK, GREATER","1,684",1,"4,150",Public,Commercial,Seriola dumerili,168689
+2021,BLUEFISH,"2,439",1,"1,003",Public,Commercial,Pomatomus saltatrix,168559
+2021,"BUMPER, ATLANTIC",,,,Confidential,Commercial,Chloroscombrus chrysurus,168670
+2021,"CATFISH, BLUE",,,,Confidential,Commercial,Ictalurus furcatus,163997
+2021,"CATFISH, CHANNEL",,,,Confidential,Commercial,Ictalurus punctatus,163998
+2021,"CATFISHES, SEA **",922,0,351,Public,Commercial,Ariidae,164157
+2021,"CRAB, BLUE","860,675",390,"1,635,213",Public,Commercial,Callinectes sapidus,98696
+2021,"CRAB, FLORIDA STONE",,,,Confidential,Commercial,Menippe mercenaria,98811
+2021,"CROAKER, ATLANTIC",35,0,27,Public,Commercial,Micropogonias undulatus,169283
+2021,"DRUM, BLACK","1,942",1,"1,618",Public,Commercial,Pogonias cromis,169288
+2021,"DRUM, RED","35,182",16,"91,542",Public,Commercial,Sciaenops ocellatus,169290
+2021,"FLOUNDERS, PARALICHTHYS **","19,000",9,"67,922",Public,Commercial,Paralichthys,172734
+2021,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2021,"GROUPER, WARSAW",,,,Confidential,Commercial,Epinephelus nigritus,167704
+2021,HARVESTFISHES **,,,,Confidential,Commercial,Peprilus,172564
+2021,"JACK, ALMACO",,,,Confidential,Commercial,Seriola rivoliana,168691
+2021,"JACK, CREVALLE",,,,Confidential,Commercial,Caranx hippos,168609
+2021,KINGFISHES **,"1,205",1,"1,911",Public,Commercial,Menticirrhus,169273
+2021,LADYFISH,366,0,238,Public,Commercial,Elops saurus,161111
+2021,"MACKEREL, KING",,,,Confidential,Commercial,Scomberomorus cavalla,172435
+2021,"MACKEREL, SPANISH","4,222",2,"4,213",Public,Commercial,Scomberomorus maculatus,172436
+2021,MENHADENS **,"205,452,947","93,193","21,054,177",Public,Commercial,Brevoortia ,161731
+2021,MINNOWS **,,,,Confidential,Commercial,Cyprinidae,163342
+2021,"MULLET, STRIPED","52,932",24,"13,593",Public,Commercial,Mugil cephalus,170335
+2021,"MULLET, WHITE","53,697",24,936,Public,Commercial,Mugil curema,170336
+2021,MULLETS **,,,,Confidential,Commercial,Mugilidae,170333
+2021,PINFISH,,,,Confidential,Commercial,Lagodon rhomboides,169187
+2021,"POMPANO, FLORIDA",,,,Confidential,Commercial,Trachinotus carolinus,168708
+2021,"PORGY, RED",,,,Confidential,Commercial,Pagrus pagrus,169207
+2021,"RUNNER, BLUE",,,,Confidential,Commercial,Caranx crysos,168612
+2021,SCAMP,,,,Confidential,Commercial,Mycteroperca phenax,167763
+2021,"SEATROUT, SAND","1,412",1,"1,650",Public,Commercial,Cynoscion arenarius,169243
+2021,"SEATROUT, SPOTTED","23,795",11,"84,944",Public,Commercial,Cynoscion nebulosus,169239
+2021,SHEEPSHEAD,"7,671",3,"5,942",Public,Commercial,Archosargus probatocephalus,169189
+2021,"SHRIMP, BROWN","2,225,194","1,009","4,376,146",Public,Commercial,Penaeus aztecus,95605
+2021,"SHRIMP, NORTHERN PINK",,,,Confidential,Commercial,Penaeus duorarum,95608
+2021,"SHRIMP, NORTHERN WHITE","3,175,431","1,440","7,905,717",Public,Commercial,Penaeus setiferus,95610
+2021,"SNAPPER, BLACK",,,,Confidential,Commercial,Apsilus dentatus,168899
+2021,"SNAPPER, GRAY",243,0,767,Public,Commercial,Lutjanus griseus,168848
+2021,"SNAPPER, LANE",89,0,169,Public,Commercial,Lutjanus synagris,168860
+2021,"SNAPPER, RED","158,058",72,"306,609",Public,Commercial,Lutjanus campechanus,168853
+2021,"SNAPPER, VERMILION",423,0,810,Public,Commercial,Rhomboplites aurorubens,168909
+2021,"SNAPPERS, LUTJANIDAE (FAMILY) **",,,,Confidential,Commercial,Lutjanidae,168845
+2021,SPADEFISH,,,,Confidential,Commercial,Ephippidae ,553178
+2021,SPOT,,,,Confidential,Commercial,Leiostomus xanthurus,169267
+2021,"TRIGGERFISH, GRAY",114,0,257,Public,Commercial,Balistes capriscus,173138
+2021,TRIPLETAIL,373,0,"1,387",Public,Commercial,Lobotes surinamensis,169007
+2021,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2021,"VERTEBRATES, JAWED",,,,Confidential,Commercial,Gnathostomata ,914179
+2021,,,,,Confidential,Commercial,,
+2022,"BARRACUDAS, SPHYRAENIDAE (FAMILY) **",,,,Confidential,Commercial,Sphyraenidae,170424
+2022,BLUEFISH,,,,Confidential,Commercial,Pomatomus saltatrix,168559
+2022,"BUMPER, ATLANTIC",,,,Confidential,Commercial,Chloroscombrus chrysurus,168670
+2022,"CATFISHES, SEA **",,,,Confidential,Commercial,Ariidae,164157
+2022,"CRAB, BLUE","798,886",362,"1,494,771",Public,Commercial,Callinectes sapidus,98696
+2022,"CROAKER, ATLANTIC",,,,Confidential,Commercial,Micropogonias undulatus,169283
+2022,"DRUM, BLACK","3,251",1,"4,075",Public,Commercial,Pogonias cromis,169288
+2022,"DRUM, RED","46,740",21,"143,953",Public,Commercial,Sciaenops ocellatus,169290
+2022,"FLOUNDERS, PARALICHTHYS **","29,650",13,"109,978",Public,Commercial,Paralichthys,172734
+2022,"GROUPER, GAG",,,,Confidential,Commercial,Mycteroperca microlepis,167759
+2022,KINGFISHES **,"1,940",1,"3,109",Public,Commercial,Menticirrhus,169273
+2022,LADYFISH,,,,Confidential,Commercial,Elops saurus,161111
+2022,"MACKEREL, KING",,,,Confidential,Commercial,Scomberomorus cavalla,172435
+2022,"MACKEREL, SPANISH",,,,Confidential,Commercial,Scomberomorus maculatus,172436
+2022,MENHADENS **,"303,697,773","137,756","43,421,938",Public,Commercial,Brevoortia ,161731
+2022,MINNOWS **,,,,Confidential,Commercial,Cyprinidae,163342
+2022,"MULLET, STRIPED","67,110",30,"13,800",Public,Commercial,Mugil cephalus,170335
+2022,"MULLET, WHITE",,,,Confidential,Commercial,Mugil curema,170336
+2022,"POMPANO, AFRICAN",,,,Confidential,Commercial,Alectis ciliaris,168602
+2022,"POMPANO, FLORIDA",,,,Confidential,Commercial,Trachinotus carolinus,168708
+2022,PORGIES **,,,,Confidential,Commercial,Sparidae,169180
+2022,"RUNNER, BLUE",,,,Confidential,Commercial,Caranx crysos,168612
+2022,"SEATROUT, SAND","1,521",1,"2,373",Public,Commercial,Cynoscion arenarius,169243
+2022,"SEATROUT, SPOTTED","28,252",13,"111,479",Public,Commercial,Cynoscion nebulosus,169239
+2022,SHEEPSHEAD,"9,327",4,"9,249",Public,Commercial,Archosargus probatocephalus,169189
+2022,"SHRIMP, BROWN","2,798,053","1,269","3,705,199",Public,Commercial,Penaeus aztecus,95605
+2022,"SHRIMP, NORTHERN PINK",,,,Confidential,Commercial,Penaeus duorarum,95608
+2022,"SHRIMP, NORTHERN WHITE","3,017,350","1,369","5,861,837",Public,Commercial,Penaeus setiferus,95610
+2022,"SNAPPER, GRAY","2,726",1,"11,454",Public,Commercial,Lutjanus griseus,168848
+2022,"SNAPPER, LANE",,,,Confidential,Commercial,Lutjanus synagris,168860
+2022,"SNAPPER, RED","113,022",51,"221,287",Public,Commercial,Lutjanus campechanus,168853
+2022,"SNAPPER, VERMILION",398,0,"1,351",Public,Commercial,Rhomboplites aurorubens,168909
+2022,"SNAPPERS, LUTJANIDAE (FAMILY) **",,,,Confidential,Commercial,Lutjanidae,168845
+2022,SPADEFISH,,,,Confidential,Commercial,Ephippidae ,553178
+2022,"SQUIDS, LOLIGINIDAE **",,,,Confidential,Commercial,Loliginidae,82369
+2022,"TRIGGERFISH, GRAY",,,,Confidential,Commercial,Balistes capriscus,173138
+2022,TRIPLETAIL,"1,136",1,"4,886",Public,Commercial,Lobotes surinamensis,169007
+2022,"TUNA, LITTLE TUNNY",,,,Confidential,Commercial,Euthynnus alletteratus,172402
+2022,"VERTEBRATES, JAWED",,,,Confidential,Commercial,Gnathostomata ,914179
+2022,,"228,554",104,"52,275",Public,Commercial,,
