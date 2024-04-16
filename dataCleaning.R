@@ -128,7 +128,7 @@ Annual.Sum22 <- subset(Annual.Sum, YEAR == 2022)
 
 
 #################################
-## Water quality data
+##      Water quality data
 
 tWQ <- read.csv('scratch_tHydro0822.csv')
 str(tWQ)
@@ -144,4 +144,14 @@ Annual.WQ <- tWQ %>%
             mean.temp.bot = mean(as.numeric(TMP_BOT), na.rm = TRUE),
             mean.oxy.sur = mean(as.numeric(OXY_SUR), na.rm = TRUE),
             mean.oxy.bot = mean(as.numeric(OXY_BOT), na.rm = TRUE))
+
+################################
+##    Commercial Landings
+
+landings1022 <- read.csv("FOSS_landings.csv")
+
+dLandings <- subset(landings1022, landings1022$Confidentiality != "Confidential")
+dLandings %<>% tibble()
+dLandings
+
 
