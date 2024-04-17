@@ -54,11 +54,11 @@ str(tDet)
 tSum$YEAR <- year(tSum$DATE)
 
 
-## Annual catch weight
-Annual.Sum <- tSum %>% 
-  group_by(NAME, YEAR) %>% 
-  summarise(total.weight.g = sum(as.numeric(TOT.WEIGHT), na.rm = TRUE),
-            total.catch.n = sum(as.numeric(TOT.NUM), na.rm = FALSE))
+# ## Annual catch weight
+# Annual.Sum <- tSum %>% 
+#   group_by(NAME, YEAR) %>% 
+#   summarise(total.weight.g = sum(as.numeric(TOT.WEIGHT), na.rm = TRUE),
+#             total.catch.n = sum(as.numeric(TOT.NUM), na.rm = FALSE))
 
 
 # get trawl area and num trawl events in each year
@@ -67,6 +67,7 @@ kph <- 4.83
 mps <- 1.34
 trawl.duration <- 600
 net.size <- 4.88
+
 grid.cell.area.km2 <- 1.14
 
 (trawl.dist <- trawl.duration * mps) #[1] 804
@@ -74,12 +75,9 @@ grid.cell.area.km2 <- 1.14
 (trawl.area.km2 <- trawl.area / (1.0 * 10^6)) #[1] 0.00392352
 (trawls.per.square <- grid.cell.area.km2 / trawl.area.km2) #[1] 290.5554
 
-  # estimated wt per 'cell'
-tSum$est.wt.cell.g <- tSum$TOT.WEIGHT * trawls.per.square
-tSum$est.wt.cell.kg <- tSum$est.wt.cell.g / 1000
-tSum$est.wt.cell.t <- tSum$est.wt.cell.kg / 1000
-
-# get biomass density
+  # estimated biomass per 'cell'
+tSum$biom.dens.cell.kg <- (tSum$TOT.WEIGHT / 1000) / grid.cell.area.km2
+tSum$biom.dens.cell.t <- (((tSum$TOT.WEIGHT / 1000) / 1000) / grid.cell.area.km2)
 
 month.fixed.locs <- 19
 n.trawl.areas <- 12 # one random sta from each area per month
@@ -88,7 +86,7 @@ n.trawl.areas <- 12 # one random sta from each area per month
 (annual.n.trawls <- 12 * (month.fixed.locs + n.trawl.areas)) #[1] 372
 
 
-potential.sta <- 437 # could also be interpreted as num grid squares in study area
+potential.sta <- 437 # could also be interpreted as num grid squares in study area?
 (potential.area <- potential.sta * trawl.area.km2) #[1] 1.714578
 
 # get biomass density
@@ -96,13 +94,19 @@ potential.sta <- 437 # could also be interpreted as num grid squares in study ar
 ## Annual catch weight
 Annual.Sum <- tSum %>% 
   group_by(NAME, YEAR) %>% 
-  summarise(est.wt.cell.t.sum = sum(as.numeric(est.wt.cell.t), na.rm = TRUE))
+  summarise(sum.biom.dens.kg = sum(as.numeric(biom.dens.cell.kg), na.rm = TRUE),
+            sum.biom.dens.t = sum(as.numeric(biom.dens.cell.t), na.rm = TRUE),
+            mean.biom.dens.kg = mean(as.numeric(biom.dens.cell.kg), na.rm = TRUE),
+            mean.biom.dens.t = mean(as.numeric(biom.dens.cell.t), na.rm = TRUE))
+            
 
-Annual.Sum$biom.density <- Annual.Sum$est.wt.cell.t.sum / annual.n.trawls
+Annual.Sum$biomass.kg <- Annual.Sum$mean.biom.dens.kg * annual.n.trawls
+Annual.Sum$biomass.t <- Annual.Sum$mean.biom.dens.t * annual.n.trawls
 
-# get biomass (t) with biomass density * sea surface area of MS Sound
+# get biomass (t) with biomass density * sea surface area of cells
 
 sound.area.km2 <- 2128.87
+(tot.SA.cells <- grid.cell.area.km2 * annual.n.trawls) #[1] 424.08
 
 (cells.in.sound <- sound.area.km2 / grid.cell.area.km2) # [1] 1867.43
 
@@ -112,21 +116,21 @@ Annual.Sum <- tibble(Annual.Sum)
 Annual.Sum
 
 
-# Annual.Sum08 <- subset(Annual.Sum, YEAR == 2008)
-# Annual.Sum09 <- subset(Annual.Sum, YEAR == 2009)
-# Annual.Sum10 <- subset(Annual.Sum, YEAR == 2010)
-# Annual.Sum11 <- subset(Annual.Sum, YEAR == 2011)
-# Annual.Sum12 <- subset(Annual.Sum, YEAR == 2012)
-# Annual.Sum13 <- subset(Annual.Sum, YEAR == 2013)
-# Annual.Sum14 <- subset(Annual.Sum, YEAR == 2014)
-# Annual.Sum15 <- subset(Annual.Sum, YEAR == 2015)
-# Annual.Sum16 <- subset(Annual.Sum, YEAR == 2016)
-# Annual.Sum17 <- subset(Annual.Sum, YEAR == 2017)
-# Annual.Sum18 <- subset(Annual.Sum, YEAR == 2018)
-# Annual.Sum19 <- subset(Annual.Sum, YEAR == 2019)
-# Annual.Sum20 <- subset(Annual.Sum, YEAR == 2020)
-# Annual.Sum21 <- subset(Annual.Sum, YEAR == 2021)
-# Annual.Sum22 <- subset(Annual.Sum, YEAR == 2022)
+Annual.Sum08 <- subset(Annual.Sum, YEAR == 2008)
+Annual.Sum09 <- subset(Annual.Sum, YEAR == 2009)
+Annual.Sum10 <- subset(Annual.Sum, YEAR == 2010)
+Annual.Sum11 <- subset(Annual.Sum, YEAR == 2011)
+Annual.Sum12 <- subset(Annual.Sum, YEAR == 2012)
+Annual.Sum13 <- subset(Annual.Sum, YEAR == 2013)
+Annual.Sum14 <- subset(Annual.Sum, YEAR == 2014)
+Annual.Sum15 <- subset(Annual.Sum, YEAR == 2015)
+Annual.Sum16 <- subset(Annual.Sum, YEAR == 2016)
+Annual.Sum17 <- subset(Annual.Sum, YEAR == 2017)
+Annual.Sum18 <- subset(Annual.Sum, YEAR == 2018)
+Annual.Sum19 <- subset(Annual.Sum, YEAR == 2019)
+Annual.Sum20 <- subset(Annual.Sum, YEAR == 2020)
+Annual.Sum21 <- subset(Annual.Sum, YEAR == 2021)
+Annual.Sum22 <- subset(Annual.Sum, YEAR == 2022)
 
 
 #################################
