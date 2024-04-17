@@ -98,7 +98,6 @@ Annual.Sum <- tSum %>%
             sum.biom.dens.t = sum(as.numeric(biom.dens.cell.t), na.rm = TRUE),
             mean.biom.dens.kg = mean(as.numeric(biom.dens.cell.kg), na.rm = TRUE),
             mean.biom.dens.t = mean(as.numeric(biom.dens.cell.t), na.rm = TRUE))
-            
 
 Annual.Sum$biomass.kg <- Annual.Sum$mean.biom.dens.kg * annual.n.trawls
 Annual.Sum$biomass.t <- Annual.Sum$mean.biom.dens.t * annual.n.trawls
