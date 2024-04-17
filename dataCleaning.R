@@ -35,7 +35,6 @@ str(tDet)
 ###################################
 ##  Get Common Names (Somehow) 
 
-
 # # get list of spp caught
 # (tSpp <- unique(tSum$NAME))
 # tSpp <- na.omit(tSpp)
@@ -54,8 +53,6 @@ str(tDet)
 
 tSum$YEAR <- year(tSum$DATE)
 
-# mean weight of spp per trawl
-tSum$MEAN.WT.G <- tSum$TOT.WEIGHT / tSum$TOT.NUM
 
 ## Annual catch weight
 Annual.Sum <- tSum %>% 
@@ -63,70 +60,74 @@ Annual.Sum <- tSum %>%
   summarise(total.weight.g = sum(as.numeric(TOT.WEIGHT), na.rm = TRUE),
             total.catch.n = sum(as.numeric(TOT.NUM), na.rm = FALSE))
 
-Annual.Sum$total.weight.kg <- Annual.Sum$total.weight.g / 1000
-Annual.Sum$total.weight.t <- Annual.Sum$total.weight.kg / 1000
-
-
-# subset a couple of years
-
-tSum10 <- subset(tSum, YEAR==2010)
-tSum11 <- subset(tSum, YEAR==2011)
-tSum12 <- subset(tSum, YEAR==2012)
-tSum13 <- subset(tSum, YEAR==2013)
-tSum14 <- subset(tSum, YEAR==2014)
-tSum15 <- subset(tSum, YEAR==2015)
-tSum16 <- subset(tSum, YEAR==2016)
-tSum17 <- subset(tSum, YEAR==2017)
-tSum18 <- subset(tSum, YEAR==2018)
-tSum19 <- subset(tSum, YEAR==2019)
-tSum20 <- subset(tSum, YEAR==2020)
 
 # get trawl area and num trawl events in each year
+
 kph <- 4.83
 mps <- 1.34
 trawl.duration <- 600
 net.size <- 4.88
+grid.cell.area.km2 <- 1.14
 
 (trawl.dist <- trawl.duration * mps) #[1] 804
 (trawl.area <- trawl.dist * net.size) #[1] 3923.52
 (trawl.area.km2 <- trawl.area / (1.0 * 10^6)) #[1] 0.00392352
+(trawls.per.square <- grid.cell.area.km2 / trawl.area.km2) #[1] 290.5554
+
+  # estimated wt per 'cell'
+tSum$est.wt.cell.g <- tSum$TOT.WEIGHT * trawls.per.square
+tSum$est.wt.cell.kg <- tSum$est.wt.cell.g / 1000
+tSum$est.wt.cell.t <- tSum$est.wt.cell.kg / 1000
+
+# get biomass density
 
 month.fixed.locs <- 19
-n.trawl.areas <- 12 # one sta from each area per month
+n.trawl.areas <- 12 # one random sta from each area per month
 
+# number of cells sampled in a given year
 (annual.n.trawls <- 12 * (month.fixed.locs + n.trawl.areas)) #[1] 372
 
-(tot.area.sampled <- trawl.area.km2 * annual.n.trawls) #[1] 1.459549
 
-potential.sta <- 437
+potential.sta <- 437 # could also be interpreted as num grid squares in study area
 (potential.area <- potential.sta * trawl.area.km2) #[1] 1.714578
 
-# get biomass by taking total annual weight (t) / rough area sampled annually (km2)
+# get biomass density
 
-Annual.Sum$biomass.t <- Annual.Sum$total.weight.t / tot.area.sampled
-Annual.Sum$biomass.g <- Annual.Sum$total.weight.g / tot.area.sampled
-Annual.Sum$biomass.kg <- Annual.Sum$total.weight.kg / tot.area.sampled
+## Annual catch weight
+Annual.Sum <- tSum %>% 
+  group_by(NAME, YEAR) %>% 
+  summarise(est.wt.cell.t.sum = sum(as.numeric(est.wt.cell.t), na.rm = TRUE))
+
+Annual.Sum$biom.density <- Annual.Sum$est.wt.cell.t.sum / annual.n.trawls
+
+# get biomass (t) with biomass density * sea surface area of MS Sound
+
+sound.area.km2 <- 2128.87
+
+(cells.in.sound <- sound.area.km2 / grid.cell.area.km2) # [1] 1867.43
+
+Annual.Sum$est.biomass.t <- Annual.Sum$biom.density * cells.in.sound
+
 Annual.Sum <- tibble(Annual.Sum)
 Annual.Sum
 
 
-Annual.Sum08 <- subset(Annual.Sum, YEAR == 2008)
-Annual.Sum09 <- subset(Annual.Sum, YEAR == 2009)
-Annual.Sum10 <- subset(Annual.Sum, YEAR == 2010)
-Annual.Sum11 <- subset(Annual.Sum, YEAR == 2011)
-Annual.Sum12 <- subset(Annual.Sum, YEAR == 2012)
-Annual.Sum13 <- subset(Annual.Sum, YEAR == 2013)
-Annual.Sum14 <- subset(Annual.Sum, YEAR == 2014)
-Annual.Sum15 <- subset(Annual.Sum, YEAR == 2015)
-Annual.Sum16 <- subset(Annual.Sum, YEAR == 2016)
-Annual.Sum17 <- subset(Annual.Sum, YEAR == 2017)
-Annual.Sum18 <- subset(Annual.Sum, YEAR == 2018)
-Annual.Sum19 <- subset(Annual.Sum, YEAR == 2019)
-Annual.Sum20 <- subset(Annual.Sum, YEAR == 2020)
-Annual.Sum21 <- subset(Annual.Sum, YEAR == 2021)
-Annual.Sum22 <- subset(Annual.Sum, YEAR == 2022)
+# Annual.Sum08 <- subset(Annual.Sum, YEAR == 2008)
+# Annual.Sum09 <- subset(Annual.Sum, YEAR == 2009)
+# Annual.Sum10 <- subset(Annual.Sum, YEAR == 2010)
+# Annual.Sum11 <- subset(Annual.Sum, YEAR == 2011)
+# Annual.Sum12 <- subset(Annual.Sum, YEAR == 2012)
+# Annual.Sum13 <- subset(Annual.Sum, YEAR == 2013)
+# Annual.Sum14 <- subset(Annual.Sum, YEAR == 2014)
+# Annual.Sum15 <- subset(Annual.Sum, YEAR == 2015)
+# Annual.Sum16 <- subset(Annual.Sum, YEAR == 2016)
+# Annual.Sum17 <- subset(Annual.Sum, YEAR == 2017)
+# Annual.Sum18 <- subset(Annual.Sum, YEAR == 2018)
+# Annual.Sum19 <- subset(Annual.Sum, YEAR == 2019)
+# Annual.Sum20 <- subset(Annual.Sum, YEAR == 2020)
+# Annual.Sum21 <- subset(Annual.Sum, YEAR == 2021)
+# Annual.Sum22 <- subset(Annual.Sum, YEAR == 2022)
 
-sound.area.km2 <- 2128.87
 
 #################################
 ##      Water quality data
@@ -155,4 +156,10 @@ dLandings <- subset(landings1022, landings1022$Confidentiality != "Confidential"
 dLandings %<>% tibble()
 dLandings
 
+# need to remove commas from catch weights
+dLandings$Pounds <- as.numeric(gsub(",", "", dLandings$Pounds))
+dLandings$Metric.Tons <- as.numeric(gsub(",", "", dLandings$Metric.Tons))
 
+# get landings in tons per km2 - divide catch by area of MS sound
+dLandings$t.km2 <- dLandings$Metric.Tons / sound.area.km2
+dLandings
