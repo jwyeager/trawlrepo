@@ -75,42 +75,38 @@ grid.cell.area.km2 <- 1.14
 (trawl.area.km2 <- trawl.area / (1.0 * 10^6)) #[1] 0.00392352
 (trawls.per.square <- grid.cell.area.km2 / trawl.area.km2) #[1] 290.5554
 
-  # estimated biomass per 'cell'
-tSum$biom.dens.cell.kg <- (tSum$TOT.WEIGHT / 1000) / grid.cell.area.km2
-tSum$biom.dens.cell.t <- (((tSum$TOT.WEIGHT / 1000) / 1000) / grid.cell.area.km2)
+tSum$TOT.WT.kg <- tSum$TOT.WEIGHT / 1000
+tSum$TOT.WT.t <- tSum$TOT.WT.kg / 1000
 
-month.fixed.locs <- 19
-n.trawl.areas <- 12 # one random sta from each area per month
+tSum$est.cell.wt.t <- tSum$TOT.WT.t * trawls.per.square
 
-# number of cells sampled in a given year
-(annual.n.trawls <- 12 * (month.fixed.locs + n.trawl.areas)) #[1] 372
+sound.area.km2 <- 2128.87
+
+(cells.in.sound <- sound.area.km2 / grid.cell.area.km2) #[1] 1867.43
+
+tSum$est.biom.sound <- tSum$est.cell.wt.t * cells.in.sound
+
+tSum$est.biom.density <- tSum$est.biom.sound / sound.area.km2
+# month.fixed.locs <- 19
+# n.trawl.areas <- 12 # one random sta from each area per month
+# 
+# # number of cells sampled in a given year
+# (annual.n.trawls <- 12 * (month.fixed.locs + n.trawl.areas)) #[1] 372
 
 
-potential.sta <- 437 # could also be interpreted as num grid squares in study area?
-(potential.area <- potential.sta * trawl.area.km2) #[1] 1.714578
+# potential.sta <- 437 # could also be interpreted as num grid squares in study area?
+# (potential.area <- potential.sta * trawl.area.km2) #[1] 1.714578
 
 # get biomass density
 
 ## Annual catch weight
 Annual.Sum <- tSum %>% 
   group_by(NAME, YEAR) %>% 
-  summarise(sum.biom.dens.kg = sum(as.numeric(biom.dens.cell.kg), na.rm = TRUE),
-            sum.biom.dens.t = sum(as.numeric(biom.dens.cell.t), na.rm = TRUE),
-            mean.biom.dens.kg = mean(as.numeric(biom.dens.cell.kg), na.rm = TRUE),
-            mean.biom.dens.t = mean(as.numeric(biom.dens.cell.t), na.rm = TRUE))
+  summarise(sum.biom.sound.t = sum(as.numeric(est.biom.sound), na.rm = TRUE),
+            mean.biom.sound.t = mean(as.numeric(est.biom.sound), na.rm = TRUE),
+            sum.biom.density.t = sum(as.numeric(est.biom.density), na.rm = TRUE),
+            mean.biom.density.t = mean(as.numeric(est.biom.density), na.rm = TRUE))
             
-
-Annual.Sum$biomass.kg <- Annual.Sum$mean.biom.dens.kg * annual.n.trawls
-Annual.Sum$biomass.t <- Annual.Sum$mean.biom.dens.t * annual.n.trawls
-
-# get biomass (t) with biomass density * sea surface area of cells
-
-sound.area.km2 <- 2128.87
-(tot.SA.cells <- grid.cell.area.km2 * annual.n.trawls) #[1] 424.08
-
-(cells.in.sound <- sound.area.km2 / grid.cell.area.km2) # [1] 1867.43
-
-Annual.Sum$est.biomass.t <- Annual.Sum$biom.density * cells.in.sound
 
 Annual.Sum <- tibble(Annual.Sum)
 Annual.Sum
