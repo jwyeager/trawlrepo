@@ -102,14 +102,14 @@ Annual.Sum <- tSum %>%
 Annual.Sum$biomass.kg <- Annual.Sum$mean.biom.dens.kg * annual.n.trawls
 Annual.Sum$biomass.t <- Annual.Sum$mean.biom.dens.t * annual.n.trawls
 
-# get biomass (t) with biomass density * sea surface area of cells
-
-sound.area.km2 <- 2128.87
-(tot.SA.cells <- grid.cell.area.km2 * annual.n.trawls) #[1] 424.08
-
-(cells.in.sound <- sound.area.km2 / grid.cell.area.km2) # [1] 1867.43
-
-Annual.Sum$est.biomass.t <- Annual.Sum$biom.density * cells.in.sound
+# # get biomass (t) with biomass density * sea surface area of cells
+# 
+# sound.area.km2 <- 2128.87
+# (tot.SA.cells <- grid.cell.area.km2 * annual.n.trawls) #[1] 424.08
+# 
+# (cells.in.sound <- sound.area.km2 / grid.cell.area.km2) # [1] 1867.43
+# 
+# Annual.Sum$est.biomass.t <- Annual.Sum$biom.density * cells.in.sound
 
 Annual.Sum <- tibble(Annual.Sum)
 Annual.Sum
