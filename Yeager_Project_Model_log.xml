@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <Platform>Microsoft Windows NT 10.0.22631.0</Platform>
+  <Is64BitOS>True</Is64BitOS>
+  <ModelName>Yeager_Project_Model</ModelName>
+  <Created>11:22:40 AM Friday, April 26, 2024</Created>
+<Session_Started
+  Date="11:22:40 AM Friday, April 26, 2024">
+  <Model>Yeager_Project_Model</Model>
+  <LogFile>C:\TrawlData\trawlrepo\Yeager_Project_Model_log.xml</LogFile>
+  <Is64BitExe>True</Is64BitExe>
+  <CultureOS>English (United States)</CultureOS>
+  <CultureUI>English (United States)</CultureUI>
+  <DecimalSeparator>.</DecimalSeparator>
+</Session_Started>
+<Information_Message
+  Date="11:22:40 AM Friday, April 26, 2024">
+  <Message>Ecopath model 'C:\TrawlData\trawlrepo\Yeager_Project_Model.EwEmdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Log_Message
+  Date="12:07:13 PM Friday, April 26, 2024">
+  <Message>EwECore.SpatialData.cSpatialDataSetManager Failed to stop run when loading new model.</Message>
+</Log_Message>
+<Log_Message
+  Date="12:07:13 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:07:13 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:07:13 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:07:13 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:07:13 PM Friday, April 26, 2024">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:07:13 PM Friday, April 26, 2024">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started
+  Date="12:07:13 PM Friday, April 26, 2024">
+  <Model>Yeager_Project_Model</Model>
+  <LogFile>C:\TrawlData\trawlrepo\Yeager_Project_Model_log.xml</LogFile>
+  <Is64BitExe>True</Is64BitExe>
+  <CultureOS>English (United States)</CultureOS>
+  <CultureUI>English (United States)</CultureUI>
+  <DecimalSeparator>.</DecimalSeparator>
+</Session_Started>
+<Information_Message
+  Date="12:07:13 PM Friday, April 26, 2024">
+  <Message>Ecopath model 'C:\TrawlData\trawlrepo\Yeager_Project_Model.EwEmdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Entry>
+  <Formcannotberesolved>frmEwE6 cmdNavigate OnInvoke</Formcannotberesolved>
+</Entry>
+<Question_Message
+  Date="12:14:57 PM Friday, April 26, 2024">
+  <Message>Unsaved changes in Ecopath will be lost if you proceed. Do you wish to save these changes?</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>Core</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+  <Message_Reply>YES</Message_Reply>
+  <Message_Suppressable>False</Message_Suppressable>
+  <Message_Suppressed>False</Message_Suppressed>
+</Question_Message>
+<Log_Message
+  Date="12:15:01 PM Friday, April 26, 2024">
+  <Message>EwECore.SpatialData.cSpatialDataSetManager Failed to stop run when loading new model.</Message>
+</Log_Message>
+<Log_Message
+  Date="12:15:01 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:15:01 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:15:01 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:15:01 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:15:01 PM Friday, April 26, 2024">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:15:01 PM Friday, April 26, 2024">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started
+  Date="12:15:01 PM Friday, April 26, 2024">
+  <Model>Yeager_Project_Model</Model>
+  <LogFile>C:\TrawlData\trawlrepo\Yeager_Project_Model_log.xml</LogFile>
+  <Is64BitExe>True</Is64BitExe>
+  <CultureOS>English (United States)</CultureOS>
+  <CultureUI>English (United States)</CultureUI>
+  <DecimalSeparator>.</DecimalSeparator>
+</Session_Started>
+<Information_Message
+  Date="12:15:01 PM Friday, April 26, 2024">
+  <Message>Ecopath model 'C:\TrawlData\trawlrepo\Yeager_Project_Model.EwEmdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Question_Message
+  Date="12:18:53 PM Friday, April 26, 2024">
+  <Message>Unsaved changes in Ecopath will be lost if you proceed. Do you wish to save these changes?</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>Core</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+  <Message_Reply>YES</Message_Reply>
+  <Message_Suppressable>False</Message_Suppressable>
+  <Message_Suppressed>False</Message_Suppressed>
+</Question_Message>
+<Log_Message
+  Date="12:18:56 PM Friday, April 26, 2024">
+  <Message>EwECore.SpatialData.cSpatialDataSetManager Failed to stop run when loading new model.</Message>
+</Log_Message>
+<Log_Message
+  Date="12:18:56 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:18:56 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:18:56 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:18:56 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:18:56 PM Friday, April 26, 2024">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:18:56 PM Friday, April 26, 2024">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started
+  Date="12:18:56 PM Friday, April 26, 2024">
+  <Model>Yeager_Project_Model</Model>
+  <LogFile>C:\TrawlData\trawlrepo\Yeager_Project_Model_log.xml</LogFile>
+  <Is64BitExe>True</Is64BitExe>
+  <CultureOS>English (United States)</CultureOS>
+  <CultureUI>English (United States)</CultureUI>
+  <DecimalSeparator>.</DecimalSeparator>
+</Session_Started>
+<Information_Message
+  Date="12:18:56 PM Friday, April 26, 2024">
+  <Message>Ecopath model 'C:\TrawlData\trawlrepo\Yeager_Project_Model.EwEmdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Question_Message
+  Date="12:19:43 PM Friday, April 26, 2024">
+  <Message>Unsaved changes in Ecopath will be lost if you proceed. Do you wish to save these changes?</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>Core</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+  <Message_Reply>YES</Message_Reply>
+  <Message_Suppressable>False</Message_Suppressable>
+  <Message_Suppressed>False</Message_Suppressed>
+</Question_Message>
+<Log_Message
+  Date="12:19:44 PM Friday, April 26, 2024">
+  <Message>EwECore.SpatialData.cSpatialDataSetManager Failed to stop run when loading new model.</Message>
+</Log_Message>
+<Log_Message
+  Date="12:19:44 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:19:44 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:19:44 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:19:44 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:19:44 PM Friday, April 26, 2024">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:19:44 PM Friday, April 26, 2024">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started
+  Date="12:19:44 PM Friday, April 26, 2024">
+  <Model>Yeager_Project_Model</Model>
+  <LogFile>C:\TrawlData\trawlrepo\Yeager_Project_Model_log.xml</LogFile>
+  <Is64BitExe>True</Is64BitExe>
+  <CultureOS>English (United States)</CultureOS>
+  <CultureUI>English (United States)</CultureUI>
+  <DecimalSeparator>.</DecimalSeparator>
+</Session_Started>
+<Information_Message
+  Date="12:19:44 PM Friday, April 26, 2024">
+  <Message>Ecopath model 'C:\TrawlData\trawlrepo\Yeager_Project_Model.EwEmdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Question_Message
+  Date="12:27:25 PM Friday, April 26, 2024">
+  <Message>Are you sure you want to delete group 'Skipjack? This action cannot be undone.</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+  <Message_Reply>CANCEL</Message_Reply>
+  <Message_Suppressable>False</Message_Suppressable>
+  <Message_Suppressed>False</Message_Suppressed>
+</Question_Message>
+<Question_Message
+  Date="12:27:27 PM Friday, April 26, 2024">
+  <Message>Unsaved changes in Ecopath will be lost if you proceed. Do you wish to save these changes?</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>Core</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+  <Message_Reply>YES</Message_Reply>
+  <Message_Suppressable>False</Message_Suppressable>
+  <Message_Suppressed>False</Message_Suppressed>
+</Question_Message>
+<Log_Message
+  Date="12:27:30 PM Friday, April 26, 2024">
+  <Message>EwECore.SpatialData.cSpatialDataSetManager Failed to stop run when loading new model.</Message>
+</Log_Message>
+<Log_Message
+  Date="12:27:30 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:27:30 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:27:30 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:27:30 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:27:30 PM Friday, April 26, 2024">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:27:30 PM Friday, April 26, 2024">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started
+  Date="12:27:30 PM Friday, April 26, 2024">
+  <Model>Yeager_Project_Model</Model>
+  <LogFile>C:\TrawlData\trawlrepo\Yeager_Project_Model_log.xml</LogFile>
+  <Is64BitExe>True</Is64BitExe>
+  <CultureOS>English (United States)</CultureOS>
+  <CultureUI>English (United States)</CultureUI>
+  <DecimalSeparator>.</DecimalSeparator>
+</Session_Started>
+<Information_Message
+  Date="12:27:30 PM Friday, April 26, 2024">
+  <Message>Ecopath model 'C:\TrawlData\trawlrepo\Yeager_Project_Model.EwEmdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Log_Message
+  Date="12:30:57 PM Friday, April 26, 2024">
+  <Message>EwECore.SpatialData.cSpatialDataSetManager Failed to stop run when loading new model.</Message>
+</Log_Message>
+<Log_Message
+  Date="12:30:57 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:30:57 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:30:57 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:30:57 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:30:57 PM Friday, April 26, 2024">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="12:30:58 PM Friday, April 26, 2024">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started
+  Date="12:54:08 PM Friday, April 26, 2024">
+  <Model>Yeager_Project_Model</Model>
+  <LogFile>C:\TrawlData\trawlrepo\Yeager_Project_Model_log.xml</LogFile>
+  <Is64BitExe>True</Is64BitExe>
+  <CultureOS>English (United States)</CultureOS>
+  <CultureUI>English (United States)</CultureUI>
+  <DecimalSeparator>.</DecimalSeparator>
+</Session_Started>
+<Information_Message
+  Date="12:54:08 PM Friday, April 26, 2024">
+  <Message>Ecopath model 'C:\TrawlData\trawlrepo\Yeager_Project_Model.EwEmdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Exception_Messages
+  Date="12:54:08 PM Friday, April 26, 2024">
+  <Detail>cPluginManager.LoadPluginAssembly::LoadFrom(C:\Program Files\Ecopath with Ecosim 6.6.8_64-bit_setup\Includes\LPSolve\win32\lpsolve55.dll)</Detail>
+  <Exception>
+    <Type>System.BadImageFormatException</Type>
+    <Source>mscorlib</Source>
+    <Message>Could not load file or assembly 'file:///C:\Program Files\Ecopath with Ecosim 6.6.8_64-bit_setup\Includes\LPSolve\win32\lpsolve55.dll' or one of its dependencies. The module was expected to contain an assembly manifest.</Message>
+  </Exception>
+  <StackTrace>
+    <Method>
+      <Name>_nLoad</Name>
+      <Line>0</Line>
+    </Method>
+    <Method>
+      <Name>InternalLoadAssemblyName</Name>
+      <Line>0</Line>
+    </Method>
+    <Method>
+      <Name>InternalLoadFrom</Name>
+      <Line>0</Line>
+    </Method>
+    <Method>
+      <Name>LoadFrom</Name>
+      <Line>0</Line>
+    </Method>
+    <Method>
+      <Name>LoadPluginAssembly</Name>
+      <Line>0</Line>
+    </Method>
+  </StackTrace>
+</Exception_Messages>
+<Exception_Messages
+  Date="12:54:09 PM Friday, April 26, 2024">
+  <Detail>cPluginManager.LoadPluginAssembly::LoadFrom(C:\Program Files\Ecopath with Ecosim 6.6.8_64-bit_setup\Includes\LPSolve\win64\lpsolve55.dll)</Detail>
+  <Exception>
+    <Type>System.BadImageFormatException</Type>
+    <Source>mscorlib</Source>
+    <Message>Could not load file or assembly 'file:///C:\Program Files\Ecopath with Ecosim 6.6.8_64-bit_setup\Includes\LPSolve\win64\lpsolve55.dll' or one of its dependencies. The module was expected to contain an assembly manifest.</Message>
+  </Exception>
+  <StackTrace>
+    <Method>
+      <Name>_nLoad</Name>
+      <Line>0</Line>
+    </Method>
+    <Method>
+      <Name>InternalLoadAssemblyName</Name>
+      <Line>0</Line>
+    </Method>
+    <Method>
+      <Name>InternalLoadFrom</Name>
+      <Line>0</Line>
+    </Method>
+    <Method>
+      <Name>LoadFrom</Name>
+      <Line>0</Line>
+    </Method>
+    <Method>
+      <Name>LoadPluginAssembly</Name>
+      <Line>0</Line>
+    </Method>
+  </StackTrace>
+</Exception_Messages>
+<Log_Message
+  Date="3:16:52 PM Friday, April 26, 2024">
+  <Message>EwECore.SpatialData.cSpatialDataSetManager Failed to stop run when loading new model.</Message>
+</Log_Message>
+<Log_Message
+  Date="3:16:52 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="3:16:52 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="3:16:52 PM Friday, April 26, 2024">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="3:16:52 PM Friday, April 26, 2024">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="3:16:52 PM Friday, April 26, 2024">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="3:16:52 PM Friday, April 26, 2024">
+  <Message>Model closed</Message>
+</Log_Message>
+</doc>
