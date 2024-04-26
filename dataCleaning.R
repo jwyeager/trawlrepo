@@ -6,60 +6,41 @@
 library(tidyverse)
 library(rfishbase)
 library(magrittr)
+library(stringr)
 
 # Import trawl catch data
 tSum <- read.csv('scratch_tSumm0822.csv')
-tDet <- read.csv('scratch_tDetail0822.csv')
-
 
 ## assign correct vector types
 tSum$DATE %<>% mdy()
 tSum$CODE %<>% as.character()
 
-tDet$CODE %<>% as.character()
-tDet$DATE %<>% mdy()
-
 tSum <- tibble(tSum)
-tDet <- tibble(tDet)
 
 str(tSum)
-str(tDet)
-## remove empty/useless columns
-drop.cols <- c('X', 'X.1', 'X.2')                      # name of columns to drop
-tSum <- tSum %>% select(-one_of(drop.cols))
-tDet <- tDet %>% select(-one_of(drop.cols))
+
+# remove empty/useless columns
+#drop.cols <- c('X', 'X.1', 'X.2')                      # name of columns to drop
+#tSum <- tSum %>% select(-one_of(drop.cols))
 
 str(tSum)
-str(tDet)
 
-###################################
-##  Get Common Names (Somehow) 
+#QA/QC Spp column
+(l.spp <- unique(tSum$NAME))
 
-# # get list of spp caught
-# (tSpp <- unique(tSum$NAME))
-# tSpp <- na.omit(tSpp)
-# # fishbase_pane()   # ONLY RUN IF CONNECTION NOT OPEN ALREADY - TAKES FOREVER #
-# 
-# # use fishbase to validate sci. names for typos etc
-# vSpp <- validate_names(tSpp, server = getOption('FISHBASE_API', 'fishbase'))
-# 
-# dSpp <- tibble(spp.name = tSpp, val.spp = vSpp)
-# 
-# com.names <- common_names(species_list = tSpp,
-#                           server = getOption("FISHBASE_API", "fishbase"))
+tSum <- tSum %>% filter(!str_detect(NAME, 'YOY'))
+tSum <- tSum %>% filter(!str_detect(NAME, 'sp.'))
+tSum <- tSum %>% filter(!str_detect(NAME, 'No Catch'))
+tSum$NAME <- gsub(" ", "_", tSum$NAME) # replace spaces with _
+tSum <- tSum %>% filter(str_detect(NAME, '_')) # filter out rows w/o full sci name
+
 
 #############################################
 ##  Subset by year & get annual biomass
 
 tSum$YEAR <- year(tSum$DATE)
-
-
-# ## Annual catch weight
-# Annual.Sum <- tSum %>% 
-#   group_by(NAME, YEAR) %>% 
-#   summarise(total.weight.g = sum(as.numeric(TOT.WEIGHT), na.rm = TRUE),
-#             total.catch.n = sum(as.numeric(TOT.NUM), na.rm = FALSE))
-
+tSum$WT.kg <- tSum$TOT.WEIGHT / 1000
+tSum$WT.t <- tSum$WT.kg / 1000
 
 # get trawl area and num trawl events in each year
 
@@ -68,48 +49,46 @@ mps <- 1.34
 trawl.duration <- 600
 net.size <- 4.88
 
-grid.cell.area.km2 <- 1.14
 
 (trawl.dist <- trawl.duration * mps) #[1] 804
-(trawl.area <- trawl.dist * net.size) #[1] 3923.52
-(trawl.area.km2 <- trawl.area / (1.0 * 10^6)) #[1] 0.00392352
-(trawls.per.square <- grid.cell.area.km2 / trawl.area.km2) #[1] 290.5554
+(trawl.area <- trawl.dist * net.size) #[1] 3923.52 m^2
+(trawl.area.km2 <- trawl.area / (1.0 * 10^6)) #[1] 0.00392352 km^2
+(trawls.per.cell <- 1 / trawl.area.km2) #[1] 254.8732 trawls to cover 1 km2
 
-  # estimated biomass per 'cell'
-tSum$biom.dens.cell.kg <- (tSum$TOT.WEIGHT / 1000) / grid.cell.area.km2
-tSum$biom.dens.cell.t <- (((tSum$TOT.WEIGHT / 1000) / 1000) / grid.cell.area.km2)
-
-month.fixed.locs <- 19
-n.trawl.areas <- 12 # one random sta from each area per month
+n.fixed.sta <- 19
+n.rand.sta <- 12 # one random sta from each area per month
 
 # number of cells sampled in a given year
-(annual.n.trawls <- 12 * (month.fixed.locs + n.trawl.areas)) #[1] 372
+(annual.n.trawls <- 12 * (n.fixed.sta + n.rand.sta)) #[1] 372
 
 
-potential.sta <- 437 # could also be interpreted as num grid squares in study area?
-(potential.area <- potential.sta * trawl.area.km2) #[1] 1.714578
+tSum08 <- subset(tSum, YEAR == 2008)
+tSum09 <- subset(tSum, YEAR == 2009)
+tSum10 <- subset(tSum, YEAR == 2010)
+tSum11 <- subset(tSum, YEAR == 2011)
+tSum12 <- subset(tSum, YEAR == 2012)
+tSum13 <- subset(tSum, YEAR == 2013)
+tSum14 <- subset(tSum, YEAR == 2014)
+tSum15 <- subset(tSum, YEAR == 2015)
+tSum16 <- subset(tSum, YEAR == 2016)
+tSum17 <- subset(tSum, YEAR == 2017)
+tSum18 <- subset(tSum, YEAR == 2018)
+tSum19 <- subset(tSum, YEAR == 2019)
+tSum20 <- subset(tSum, YEAR == 2020)
+tSum21 <- subset(tSum, YEAR == 2021)
+tSum22 <- subset(tSum, YEAR == 2022)
 
-# get biomass density
 
-## Annual catch weight
 Annual.Sum <- tSum %>% 
-  group_by(NAME, YEAR) %>% 
-  summarise(sum.biom.dens.kg = sum(as.numeric(biom.dens.cell.kg), na.rm = TRUE),
-            sum.biom.dens.t = sum(as.numeric(biom.dens.cell.t), na.rm = TRUE),
-            mean.biom.dens.kg = mean(as.numeric(biom.dens.cell.kg), na.rm = TRUE),
-            mean.biom.dens.t = mean(as.numeric(biom.dens.cell.t), na.rm = TRUE))
+    group_by(NAME, YEAR) %>%
+    summarise(u.biom.D.kg = mean(as.numeric(WT.kg)),
+              u.biom.D.t = mean(as.numeric(WT.t)))
 
-Annual.Sum$biomass.kg <- Annual.Sum$mean.biom.dens.kg * annual.n.trawls
-Annual.Sum$biomass.t <- Annual.Sum$mean.biom.dens.t * annual.n.trawls
+sound.area.km2 <- 2128.87
 
-# # get biomass (t) with biomass density * sea surface area of cells
-# 
-# sound.area.km2 <- 2128.87
-# (tot.SA.cells <- grid.cell.area.km2 * annual.n.trawls) #[1] 424.08
-# 
-# (cells.in.sound <- sound.area.km2 / grid.cell.area.km2) # [1] 1867.43
-# 
-# Annual.Sum$est.biomass.t <- Annual.Sum$biom.density * cells.in.sound
+Annual.Sum$y.Biomass.kg <- Annual.Sum$u.biom.D.kg * sound.area.km2
+Annual.Sum$y.Biomass.t <- Annual.Sum$u.biom.D.t * sound.area.km2
+
 
 Annual.Sum <- tibble(Annual.Sum)
 Annual.Sum
@@ -131,6 +110,36 @@ Annual.Sum20 <- subset(Annual.Sum, YEAR == 2020)
 Annual.Sum21 <- subset(Annual.Sum, YEAR == 2021)
 Annual.Sum22 <- subset(Annual.Sum, YEAR == 2022)
 
+
+model.spp <- c("Anchoa_mitchilli", "Anchoa_hepsetus", "Anchoa_lyolepis",
+               "Ariopsis_felis", "Bagre_marinus", "Archosargus_probatocephalus",
+               "Pogonias_cromis",
+               "Callinectes_sapidus", "Callinectes_similis", "Cynoscion_nebulosus",
+               "Cynoscion_arenarius", "Cynoscion_nothus", "Caranx_hippos",
+               "Sciaenops_ocellatus", "Sphyrna_tiburo", "Harengula_jaguana",
+               "Sardinella_janeiro", "Scomberomorus_maculatus", "Paralichthys_lethostigma",
+               "Micropogonias_undulatus", "Litopenaeus_setiferus", 
+               "Farfantepenaeus_aztecus", "Farfantepenaeus_duorarum",
+               "Dasyatis_sabina", "Dasyatis_say", "Menticirrhus_americanus",
+               "Brevoortia_patronus")
+
+model08 <- Annual.Sum08 %>% filter(NAME %in% model.spp)
+model09 <- Annual.Sum09 %>% filter(NAME %in% model.spp)
+model10 <- Annual.Sum10 %>% filter(NAME %in% model.spp)
+model11 <- Annual.Sum11 %>% filter(NAME %in% model.spp)
+model12 <- Annual.Sum12 %>% filter(NAME %in% model.spp)
+model13 <- Annual.Sum13 %>% filter(NAME %in% model.spp)
+model14 <- Annual.Sum14 %>% filter(NAME %in% model.spp)
+model15 <- Annual.Sum15 %>% filter(NAME %in% model.spp)
+model16 <- Annual.Sum16 %>% filter(NAME %in% model.spp)
+model17 <- Annual.Sum17 %>% filter(NAME %in% model.spp)
+model18 <- Annual.Sum18 %>% filter(NAME %in% model.spp)
+model19 <- Annual.Sum19 %>% filter(NAME %in% model.spp)
+model20 <- Annual.Sum20 %>% filter(NAME %in% model.spp)
+model21 <- Annual.Sum21 %>% filter(NAME %in% model.spp)
+
+write.csv(model08, file='model08.csv')
+write.csv(model09, file='model09.csv')
 
 #################################
 ##      Water quality data
